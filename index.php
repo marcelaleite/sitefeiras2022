@@ -51,7 +51,7 @@ include_once "cabecalho.php";
 
     <div class="row" >
       <div class="col">
-          <object id="my-svg" class="trilha img-fluid"" type="image/svg+xml" data="imagens/trilha-nova2.svg" width="100%"></object>
+          <object id="my-svg" class="trilha img-fluid"" type="image/svg+xml" data="imagens/trilha-nova3.svg" width="100%"></object>
       </div>
 
     </div>
