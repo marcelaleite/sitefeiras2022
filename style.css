@@ -1,0 +1,40 @@
+.texto{
+  font-size: 4vw;
+  color: rgb(53, 158, 109);
+  font-weight: bold;
+ text-align: center;
+ font-family: 'Roboto Condensed', sans-serif;
+
+}
+.trilha{
+    width: 100%;
+    
+}
+
+/*
+.texto2{
+    position: absolute;
+    left: 5%;
+    top: 78%;
+    font-size: 50%;
+    color: rgb(0, 0, 0);
+  font-weight: bold;
+  padding-top: 20%;
+  padding-left: 5%;
+ text-align: center;
+ font-family: 'Roboto Condensed', sans-serif;
+}
+.organizacao{
+    position:relative;
+    top: 50px;
+}
+.organizacaotext1{
+    position: absolute;
+    right: 30%;
+}
+.textoap{
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: justify;
+    padding: 3%;
+}*/
