@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <?php
 $titulo = "Feiras 2022";
-
+$feira = "";
 include_once "cabecalho.php";
 ?>
 <body class="justify-content-center">

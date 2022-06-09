@@ -583,7 +583,7 @@ Taió"
             </rect>
             </a>
           </g>
-             <a        xlink:href="../regRiodoSul.php" target="_blank"        id="a123">
+             <a        xlink:href="../regRiodoSul.php?feira=riodosul" target="_blank"        id="a123">
           <rect
              style="fill:#000000;fill-opacity:0.00185449;stroke:#000000;stroke-width:1.16165;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:4.64662, 1.16165000000000007;stroke-dashoffset:0;stroke-opacity:0;paint-order:stroke fill markers"
              id="linkreional"
