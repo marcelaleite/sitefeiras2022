@@ -52,7 +52,7 @@ include_once "cabecalho.php";
     <script src="node_modules/vivus/dist/vivus.js"></script>
 
     <div class="row" >
-      <div class="col">
+      <div class="col" id="svgfeiras">
           <object id="my-svg" class="trilha img-fluid"" type="image/svg+xml" data="imagens/trilha-nova3.svg" width="100%"></object>
       </div>
 
@@ -61,12 +61,27 @@ include_once "cabecalho.php";
 
     <script>
       function f(){
-      //  alert('oi');
+        $('#svgfeiras').addClass('fundosvg');
+      }
+      function e(ev){
+        $(this).find('#linkreional').addClass('fundolink');
+        console.log($(this).find('#linkreional'));
+        console.log('antes');
+      }
+      function s(ev){
+        console.log('depois');
+        $(this).find('#linkreional').removeClass('fundolink');
+
       }
 
+      $('#my-svg').hover(e,s);
+
       $('#mnregionais').on('click',function(){
+        $('#svgfeiras').removeClass('fundosvg');
+
         myvivus.stop().reset().play(2);
       });
+
 
 
       myvivus = new Vivus('my-svg', { type:'sync', duration: 100 }, f);

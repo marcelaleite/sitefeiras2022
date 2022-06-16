@@ -159,11 +159,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.57875767"
-     inkscape:cx="2065.7542"
-     inkscape:cy="492.9061"
+     inkscape:zoom="0.94019461"
+     inkscape:cx="834.73248"
+     inkscape:cy="291.16635"
      inkscape:document-units="px"
-     inkscape:current-layer="text1235"
+     inkscape:current-layer="text1254"
      inkscape:document-rotation="0"
      showgrid="false"
      units="px"
@@ -181,7 +181,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -191,7 +191,6 @@
      id="layer1"
      transform="translate(96.928374,64.425486)">
     <g
-       aria-label="Rio do Sul"
        id="text848"
        style="font-size:10.5833px;line-height:0;font-family:'Baekmuk Gulim';-inkscape-font-specification:'Baekmuk Gulim';stroke:#0b0b0b;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0">
       <g
@@ -200,8 +199,6 @@
          style="font-size:25.4px;line-height:326.39px;font-family:'Baekmuk Gulim';-inkscape-font-specification:'Baekmuk Gulim';stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0">
         <desc
            id="desc917">Texto Rio do Sul</desc>
-        <title
-           id="title915">Rio do Sul</title>
         <path
            d="m 70.087236,33.809673 q -1.0414,0 -1.651,-0.5334 -0.5842,-0.5588 -0.7874,-1.4732 -0.1778,-0.9144 -0.2286,-1.8542 -0.0508,-0.9652 -0.127,-2.032 -0.0508,-1.066799 -0.2794,-1.650999 -0.254,-0.6858 -0.7366,-0.9652 -0.4572,-0.3048 -0.8636,-0.3556 -0.381,-0.0508 -0.4318,-0.1524 -0.0254,-0.3302 0.4826,-0.5334 0.508,-0.2032 0.889,-0.2032 1.9304,-0.0508 2.921,-1.143 1.016,-1.1176 1.016,-3.048 0,-1.6002 -1.0922,-2.7178 -1.0668,-1.1176 -2.6416,-1.1176 -0.7874,0 -2.1844,0.4318 -1.397,0.4064 -1.397,0.9906 0,0.1524 0.0508,0.4064 0.4318,3.3274 0.6096,4.0132 0.2794,1.1938 0.5842,2.3622 0.3302,1.1684 0.5842,2.5908 0.254,1.396999 0.254,2.387599 0,4.5974 -5.1308,4.5974 -1.0922,0 -1.6256,-0.7112 -0.5588,-0.7112 -0.5588,-1.8542 0,-1.3462 0.508,-4.902199 0.0508,-0.4572 0.1016,-1.651 0.0508,-1.2192 0.2032,-1.8796 0.6096,-2.7686 2.4892,-4.699 1.8796,-1.9558 4.6228,-2.6924 0.9652,-0.2794 1.8542,-0.2794 1.905,0 2.9972,1.143 1.1176,1.143 1.1176,3.048 0,1.7526 -1.1176,3.2004 -1.1176,1.4478 -2.8448,1.9558 0.5842,0.5842 0.8128,1.7018 0.254,1.117599 0.2794,2.235199 0.0508,1.0922 0.1524,2.159 0.1016,1.0414 0.6096,1.7018 0.508,0.6604 1.4986,0.6604 0.9652,0 2.7432,-0.9398 1.778,-0.9652 2.2098,-0.9652 0.2032,0 0.2032,0.127 -0.0508,0.1778 -0.2032,0.3302 -0.2286,0.2032 -2.159,1.0922 -1.905,0.889 -2.3368,1.016 -0.6096,0.2032 -1.397,0.2032 z m -8.4074,-15.316199 q -0.3302,0.2794 -0.889,1.27 -0.5334,0.9652 -0.8128,2.0574 -0.254,1.0668 -0.2794,2.032 -0.0254,0.9652 -0.127,2.2098 -0.0508,0.6096 -0.2794,2.133599 -0.2032,1.524 -0.2032,2.3622 0,1.2192 0.5588,1.8034 0.5588,0.5842 1.7526,0.5842 1.4478,0 1.8796,-0.7366 0.4318,-0.762 0.4318,-2.3368 0,-1.778 -1.016,-5.664199 -1.016,-3.9116 -1.016,-5.715 z"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:UnPilgi;-inkscape-font-specification:UnPilgi;fill:none;stroke:#0b0b0b;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -235,17 +232,12 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:UnPilgi;-inkscape-font-specification:UnPilgi;fill:none;stroke:#0b0b0b;stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            id="path935" />
         <g
-           aria-label="Ibirama
-
-Ituporanga
-
-Taió"
            id="text940"
            style="font-size:25.4px;line-height:1.25;font-family:'Baekmuk Gulim';-inkscape-font-specification:'Baekmuk Gulim';stroke-width:0.79375;stroke-miterlimit:4;stroke-dasharray:none">
           <path
              style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
              d="m 40.905527,3.2100541 c -0.602029,5.8040866 0.290353,8.4218109 5.398188,22.2405209 1.47322,13.565156 -4.798388,19.385484 -10.580452,25.695356 32.171386,-9.416017 61.640275,-11.625363 88.629627,-7.222595 l 76.48896,8.94235 c -7.91756,-9.200444 -19.14532,-17.393438 -14.53774,-30.405882 4.31276,-6.745881 5.15497,-16.9623189 7.41208,-25.7638487 -39.80423,-6.6776697 -90.55034,-4.6579484 -152.810663,6.5140988 z"
-             id="linkriodosul"
+             id="_linkriodosul"
              sodipodi:nodetypes="cccccccc">
             <desc
                id="desc1081">Link Regional Rio do Sul</desc>
@@ -380,28 +372,28 @@ Taió"
                    id="path1269" />
                 <path
                    style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:2.11667, 1.05833;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
-                   d="m -35.89911,-14.157388 c 1.160466,17.8321245 6.744313,34.688323 66.464662,39.600447"
+                   d="M -35.89911,-14.157388 C -19.722604,6.2188673 -4.1369183,27.30431 30.565552,25.443059"
                    id="path1271"
                    inkscape:connector-type="polyline"
                    inkscape:connector-curvature="0"
                    sodipodi:nodetypes="cc" />
                 <path
                    style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3.175, 1.05833;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1601)"
-                   d="M -49.594375,-20.335667 C -76.378733,51.675493 -79.664891,102.23925 -27.575268,102.26012"
+                   d="M -49.594375,-20.335667 C -54.102411,28.388984 -93.402666,100.19362 -27.575268,102.26012"
                    id="path1591"
                    inkscape:connector-type="polyline"
                    inkscape:connector-curvature="0"
                    sodipodi:nodetypes="cc" />
                 <path
                    style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3.175, 1.05833;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1655)"
-                   d="M -85.653929,-15.306697 C -135.1599,181.69512 1.6424926,179.45935 16.078026,181.07302"
+                   d="M -85.653929,-15.306697 C -96.582486,228.73746 -28.273798,184.12347 16.078026,181.07302"
                    id="path1645"
                    inkscape:connector-type="polyline"
                    inkscape:connector-curvature="0"
                    sodipodi:nodetypes="cc" />
                 <path
-                   style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3.175, 1.05833;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1721)"
-                   d="M 14.066642,-44.892866 C 342.48306,-73.407663 299.24351,-8.5985048 289.74315,39.093374"
+                   style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.058;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3.174,1.058;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1721)"
+                   d="M 14.066642,-44.892866 C 373.93308,-60.199524 296.07273,-11.383882 289.74315,39.093374"
                    id="path1711"
                    inkscape:connector-type="polyline"
                    inkscape:connector-curvature="0"
@@ -466,28 +458,28 @@ Taió"
                   </path>
                   <path
                      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3.175, 1.05833;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1828)"
-                     d="m 353.84267,64.691743 c 26.06492,-1.614316 62.51093,-6.68211 68.03622,60.382807"
+                     d="m 353.84267,64.691743 c 34.06697,3.273004 70.83462,2.548982 68.03622,60.382807"
                      id="path1818"
                      inkscape:connector-type="polyline"
                      inkscape:connector-curvature="0"
                      sodipodi:nodetypes="cc" />
                   <path
                      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4.23333, 1.05833;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker2132)"
-                     d="m 184.93359,217.05936 c 20.15106,46.81546 86.70796,32.52212 193.27482,-34.45775"
+                     d="m 184.93359,217.05936 c 32.73854,26.14901 74.8946,41.11254 193.27482,-34.45775"
                      id="path1896"
                      inkscape:connector-type="polyline"
                      inkscape:connector-curvature="0"
                      sodipodi:nodetypes="cc" />
                   <path
                      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4.23333, 1.05833;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1986)"
-                     d="m 131.00406,102.44597 c 51.00195,1.14945 122.58458,32.60488 163.39699,58.19098"
+                     d="m 131.00406,102.44597 c -6.80522,-43.487677 84.29867,6.45162 160.54255,48.20043"
                      id="path1898"
                      inkscape:connector-type="polyline"
                      inkscape:connector-curvature="0"
                      sodipodi:nodetypes="cc" />
                   <path
                      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4.23333, 1.05833;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1910)"
-                     d="m 165.48702,52.250609 c -6.85275,36.015446 62.292,52.688991 114.44195,69.340051"
+                     d="m 165.48702,52.250609 c 9.77507,19.383345 19.90272,38.813043 114.44195,69.340051"
                      id="path1900"
                      inkscape:connector-type="polyline"
                      inkscape:connector-curvature="0"
@@ -545,7 +537,7 @@ Taió"
                     </path>
                     <path
                        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4.23333, 1.05833;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker2264)"
-                       d="m 502.51491,150.57269 c 49.76853,-8.77255 27.88077,-61.696904 14.30274,-109.501127"
+                       d="m 502.51491,150.57269 c 21.82227,-4.86619 48.0471,-1.56621 14.30274,-109.501127"
                        id="path2254"
                        inkscape:connector-type="polyline"
                        inkscape:connector-curvature="0"
@@ -553,65 +545,85 @@ Taió"
                   </g>
                 </g>
               </g>
-               <a        xlink:href="../regTaio.php" target="_blank" >
-              <rect
-                 style="fill:#000000;fill-opacity:0.00185451;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:4.23333, 1.05833;stroke-dashoffset:0;stroke-opacity:0;paint-order:stroke fill markers"
-                 id="rect3036"
-                 width="100.27475"
-                 height="51.602486"
-                 x="260.79996"
-                 y="36.527485">
-                <desc
-                   id="desc3040">Link para a feira regional de Taió</desc>
-                <title
-                   id="title3038">Feira Regioal de Taió</title>
-              </rect>
+              <a
+                 xlink:href="../regTaio.php"
+                 id="a937"
+                 target="_blank">
+             <title
+               id="title1078">Regional de Taió</title>
+                <rect
+                   style="fill:#000000;fill-opacity:0.00185451;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:4.23333, 1.05833;stroke-dashoffset:0;stroke-opacity:0;paint-order:stroke fill markers"
+                   id="rect3036"
+                   width="100.27475"
+                   height="51.602486"
+                   x="260.79996"
+                   y="36.527485">
+                  <desc
+                     id="desc3040">Link para a feira regional de Taió</desc>
+                  <title
+                     id="title3038">Feira Regioal de Taió</title>
+                </rect>
               </a>
             </g>
-             <a        xlink:href="../regItuporanga.php" target="_blank" >
-            <rect
-               style="fill:#000000;fill-opacity:0.00185451;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:4.23333, 1.05833;stroke-dashoffset:0;stroke-opacity:0;paint-order:stroke fill markers"
-               id="rect2976"
-               width="241.77803"
-               height="79.394417"
-               x="19.544279"
-               y="143.76912">
-              <desc
-                 id="desc2980">Link para a feira regional de Ituporanga</desc>
-              <title
-                 id="title2978">Feira Regional de Ituporanga</title>
-            </rect>
+            <a
+               xlink:href="../regItuporanga.php"
+               id="a943"
+               target="_blank">
+               <title
+               id="title1078">Regional de Ituporanga</title>
+              <rect
+                 style="fill:#000000;fill-opacity:0.00185451;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:4.23333, 1.05833;stroke-dashoffset:0;stroke-opacity:0;paint-order:stroke fill markers"
+                 id="rect2976"
+                 width="241.77803"
+                 height="79.394417"
+                 x="19.544279"
+                 y="143.76912">
+                <desc
+                   id="desc2980">Link para a feira regional de Ituporanga</desc>
+                <title
+                   id="title2978">Feira Regional de Ituporanga</title>
+              </rect>
             </a>
           </g>
-             <a        xlink:href="../regRiodoSul.php?feira=riodosul" target="_blank"        id="a123">
-          <rect
-             style="fill:#000000;fill-opacity:0.00185449;stroke:#000000;stroke-width:1.16165;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:4.64662, 1.16165000000000007;stroke-dashoffset:0;stroke-opacity:0;paint-order:stroke fill markers"
-             id="linkreional"
-             width="159.93633"
-             height="59.824406"
-             x="40.905525"
-             y="-6.9587197"
-             ry="0">
-            <desc
-               id="desc2480">LInk para a feira regional de Rio do Sul</desc>
+          <a
+             xlink:href="../regRiodoSul.php?feira=riodosul"
+             id="a123"
+             target="_blank">
             <title
-               id="title2478">Feira Regional de Rio do Sul</title>
-          </rect>
+               id="title1078">Regional de Rio do Sul</title>
+            <rect
+               style="fill:#000000;fill-opacity:0.00185451;stroke:#000000;stroke-width:1.16165;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:4.64662, 1.16165;stroke-dashoffset:0;stroke-opacity:0;paint-order:stroke fill markers"
+               id="linkreional"
+               width="159.93633"
+               height="59.824406"
+               x="40.905525"
+               y="-6.9587197"
+               ry="0">
+              <desc
+                 id="desc2480">LInk para a feira regional de Rio do Sul</desc>
+              <title
+                 id="title2478">Feira Regional de Rio do Sul</title>
+            </rect>
           </a>
-           <a        xlink:href="../regIbirama.php" target="_blank" >
-          <rect
-             style="fill:#000000;fill-opacity:0.00185451;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:4.23333, 1.05833;stroke-dashoffset:0;stroke-opacity:0;paint-order:stroke fill markers"
-             id="rect2484"
-             width="166.68259"
-             height="56.31245"
-             x="-19.550329"
-             y="78.081169">
-            <desc
-               id="desc2488">Link para a feira regional de Ibirama</desc>
+          <a
+             xlink:href="../regIbirama.php"
+             id="a953"
+             target="_blank">
             <title
-               id="title2486">Feira Regional de Ibirama</title>
-          </rect>
-         </a>
+               id="title1080">Regional de Ibirama</title>
+            <rect
+               style="fill:#000000;fill-opacity:0.00185451;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:4.23333, 1.05833;stroke-dashoffset:0;stroke-opacity:0;paint-order:stroke fill markers"
+               id="rect2484"
+               width="166.68259"
+               height="56.31245"
+               x="-19.550329"
+               y="78.081169">
+              <desc
+                 id="desc2488">Link para a feira regional de Ibirama</desc>
+              <title
+                 id="title2486">Feira Regional de Ibirama</title>
+            </rect>
+          </a>
         </g>
         <g
            aria-label="Ibirama"

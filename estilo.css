@@ -60,3 +60,18 @@ section{
 .menu{
   background-color: #5dc460 !important;
 }
+
+.fundosvg{
+  background-image:url('imagens/trilha-nova-fundo.svg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+#linkriodosul:hover{
+  background-color: blanchedalmond;
+}
+
+.fundolink{
+  fill: chocolate;
+
+}
