@@ -8,7 +8,7 @@ include_once "cabecalho.php";
 <body class="justify-content-center">
   <div class="container corpo">
     <!-- NAVBAR -->
-    <?php include "menu.html"; ?>
+    <?php include "menu.php"; ?>
 
     <section class="home" id="home">
       <!-- COMEÇO DA PÁG 1-->
@@ -22,6 +22,7 @@ include_once "cabecalho.php";
                 <div class="carousel-caption d-none d-md-block">              
                 </div>
               </div>
+              
               <!-- <div class="carousel-item" data-bs-interval="2000">
                 <img src="imagens/trilha-nova.svg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
@@ -33,6 +34,7 @@ include_once "cabecalho.php";
                 <div class="carousel-caption d-none d-md-block">
                 </div>
               </div> -->
+              
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -45,7 +47,7 @@ include_once "cabecalho.php";
           </div>
         </div>
       </div>
-  </section>
+  </section> <!-- FINAL DA PÁGINA 1-->
   <section class="feiras" id="feiras">
     <script src="node_modules/vivus/dist/vivus.js"></script>
 
