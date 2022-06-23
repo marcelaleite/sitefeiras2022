@@ -7,7 +7,7 @@ include_once "cabecalho.php";
 ?>
 <body class="container justify-content-center">
   <!-- NAVBAR -->
-  <?php include "menu.html"; ?>
+  <?php include "menu.php"; ?>
   <!-- COMEÇO DA PÁG 1-->
 </body>
 </html>
