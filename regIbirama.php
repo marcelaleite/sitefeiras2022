@@ -19,6 +19,7 @@ include_once "cabecalho.php";
       </div>
       <div class="col col-1"></div>
     </div>
+    
   </section>
   <!-- COMEÇO DA PÁG 2-->
   <section>
