@@ -2,13 +2,13 @@
 <html lang="pt-BR">
 <?php
 $titulo = "Feiras 2022";
-
+$feira = "";
 include_once "cabecalho.php";
 ?>
 <body class="justify-content-center">
   <div class="container corpo">
     <!-- NAVBAR -->
-    <?php include "menu.html"; ?>
+    <?php include "menu.php"; ?>
 
     <section class="home" id="home">
       <!-- COMEÇO DA PÁG 1-->
@@ -22,6 +22,7 @@ include_once "cabecalho.php";
                 <div class="carousel-caption d-none d-md-block">              
                 </div>
               </div>
+              
               <!-- <div class="carousel-item" data-bs-interval="2000">
                 <img src="imagens/trilha-nova.svg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
@@ -33,6 +34,7 @@ include_once "cabecalho.php";
                 <div class="carousel-caption d-none d-md-block">
                 </div>
               </div> -->
+              
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -45,12 +47,12 @@ include_once "cabecalho.php";
           </div>
         </div>
       </div>
-  </section>
+  </section> <!-- FINAL DA PÁGINA 1-->
   <section class="feiras" id="feiras">
     <script src="node_modules/vivus/dist/vivus.js"></script>
 
     <div class="row" >
-      <div class="col">
+      <div class="col" id="svgfeiras">
           <object id="my-svg" class="trilha img-fluid"" type="image/svg+xml" data="imagens/trilha-nova3.svg" width="100%"></object>
       </div>
 
@@ -59,12 +61,27 @@ include_once "cabecalho.php";
 
     <script>
       function f(){
-      //  alert('oi');
+        $('#svgfeiras').addClass('fundosvg');
+      }
+      function e(ev){
+        $(this).find('#linkreional').addClass('fundolink');
+        console.log($(this).find('#linkreional'));
+        console.log('antes');
+      }
+      function s(ev){
+        console.log('depois');
+        $(this).find('#linkreional').removeClass('fundolink');
+
       }
 
+      $('#my-svg').hover(e,s);
+
       $('#mnregionais').on('click',function(){
+        $('#svgfeiras').removeClass('fundosvg');
+
         myvivus.stop().reset().play(2);
       });
+
 
 
       myvivus = new Vivus('my-svg', { type:'sync', duration: 100 }, f);
