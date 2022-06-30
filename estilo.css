@@ -48,8 +48,8 @@ body{
 
 
 section{
-  height: 90vh;
-  padding-top:20vh;
+  min-height: 90vh;
+  padding-top:10vh;
 }
 
 
@@ -61,17 +61,38 @@ section{
   background-color: #5dc460 !important;
 }
 
+.menuimg{
+  background-image:url('imagens/faixa_site_projeto-feiras_02.png');
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position: center;
+}
+
 .fundosvg{
   background-image:url('imagens/trilha-nova-fundo.svg');
   background-repeat:no-repeat;
   background-size:cover;
   background-position: center;
 }
-#linkriodosul:hover{
-  background-color: blanchedalmond;
+
+.fundosvg-1{
+  background-image:url('imagens/trilha-nova-fundo-1.svg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center;
 }
+/* 
+#linkreionalrds:hover{
+  background-color: red;
+} */
 
-.fundolink{
+/* .fundolink{
   fill: chocolate;
+} */
 
+
+
+.linksel{
+  fill:chocolate  !important;
+  fill-opacity: 0.2; 
 }
