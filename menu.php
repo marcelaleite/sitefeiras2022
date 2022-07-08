@@ -36,11 +36,11 @@
               <a class="nav-link" aria-current="page" href="#areadoparticipante">Area do Participante</a>
             </li>
             <?php } ?>
-            <?php if ($feira == ""){ ?>
-              <li class="nav-item">
+             <?php // if ($feira == ""){ ?>
+              <!-- <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#feiras" id="mnregionais">Feiras</a>
-              </li>
-            <?php } ?>
+              </li> -->
+            <?php // } ?> 
             <!-- <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#programacao">Programação</a>
             </li> -->
