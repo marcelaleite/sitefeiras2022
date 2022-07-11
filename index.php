@@ -9,7 +9,7 @@ include_once "cabecalho.php";
 ?>
     <script src="js/script.js"></script>
 <body class="justify-content-center">
-  <div class="container corpo">
+  <div class="container-fluid corpo">
     <!-- NAVBAR -->
     <?php include "menu.php"; ?>
 
@@ -19,7 +19,7 @@ include_once "cabecalho.php";
 <!-- 
     <div class="row" >
       <div class='col' id="svgfeiras">
-      <?php include("svg.php"); ?>
+      <?php //include("svg.php"); ?>
       </div>
     </div>
 
@@ -31,7 +31,12 @@ include_once "cabecalho.php";
         <div class='row titulo'>
           <div class='col'>
             <h1>Feiras de Matemática</h1>
-            <p> Regionais, Estadual e Nacional</p>
+          </div>        
+          <div class='row '>
+            <div class='col'>
+              <p> Regionais, Estadual e Nacional</p>
+
+            </div>
           </div>
         </div>
         <div class=row>
@@ -47,7 +52,12 @@ include_once "cabecalho.php";
               Ituporanga
             </div>
           </div>
-          <div class="col"><div class="linkfeira">Ibirama</div></div>
+          <div class="col">
+            <div class="linkfeira">
+              <img src="imagens/logo-ibirama.png" alt="Logo Ibirama" class="d-block w-100">
+              Ibirama
+            </div>
+          </div>
           <div class="col"><div class="linkfeira">Taió</div></div>
           <div class="col"><div class="linkfeira">Estadual</div></div>
           <div class="col"><div class="linkfeira">Nacional</div></div>
@@ -55,7 +65,6 @@ include_once "cabecalho.php";
       </div>
     </div>
 
-    </div>
   </section>
   <section class="projeto" id="projeto">
       <!-- COMEÇO DA PÁG 1-->

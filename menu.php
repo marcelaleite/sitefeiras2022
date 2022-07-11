@@ -12,7 +12,7 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.php">Home</a>
+                <a class="nav-link" aria-current="page" href="#feiras">Home</a>
               </li>
 
             <?php if ($feira == ""){   ?> <!--Quando na pagina index utiliza o Home do menu para mostrar o carrosel-->
@@ -59,6 +59,9 @@
             </li>
           </ul>  
       </div>
+    </div>
+    <div>
+        <img src="imagens/logo_projeto feiras-transparente.png" style='height:70px;'  class="d-block w-100" alt="Projeto Feitas de Matemática">
     </div>
   </nav>
  </div> 

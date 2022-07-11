@@ -43,23 +43,29 @@
 
 body{
   /* background-color: white; */
-  padding-top:10vh;
+  /* padding-top:10vh;
   background-image:url('imagens/fundo-mtm.jpg');
   background-repeat:repeat;
   background-size:auto;
-  background-position: center;
+  background-position: center; */
 
 }
 
 
 section{
   min-height: 90vh;
-  padding-top:10vh;
+  padding-top:15vh;
 }
 
 
 .corpo{
   /* background-color: white; */
+  padding-top:10vh;
+  background-image:url('imagens/fundo-mtm.jpg');
+  background-repeat:repeat;
+  background-size:auto;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .menu{
@@ -120,7 +126,7 @@ section{
 
 .linkfeira{
   border: 1px solid black;
-  background-color: #1F8C1F;
+  background-color: #c14140;
   border-radius: 10%;
   box-sizing: border-box;
   /* padding: 5%; */
@@ -133,6 +139,7 @@ section{
   animation-name: animalink;
   animation-duration: 1s;
   color: #AEF2CC;
+  box-shadow:3px 3px slategray;
   /* animation-iteration-count: infinite;
   animation-direction: alternate; */
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -147,12 +154,12 @@ section{
 }
 
 @keyframes linkanimah {
-  from {color: #AEF2CC;transform: scale(100%, 100%);background-color: #5dc460;border-style: solid;}
-  to {color: black;transform: scale(120%, 120%);background-color: #5fff09;border-style: dotted;box-shadow:10px 10px lightblue;}
+  from {color: #AEF2CC;transform: scale(100%, 100%);background-color: #c14140;border-style: solid;box-shadow:3px 3px slategray;}
+  to {color: black;transform: scale(120%, 120%);background-color: #c7c53d;border-style: dotted;box-shadow:10px 10px lightblue;}
 } 
 @keyframes animalink {
   from { background-color: white} 
-  to { background-color:#1F8C1F;}
+  to { background-color:#c14140;}
 } 
 
 .titulo{
@@ -169,7 +176,11 @@ section{
   font-family: 'The Nautigal', cursive;
   font-size: 4em;
   text-align: right;
+  color: #c14140;
+}
 
+.titulo img{
+  width: 100%;
 }
 
 .organizacao img{
