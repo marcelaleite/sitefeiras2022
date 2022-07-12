@@ -42,19 +42,33 @@
 }
 
 body{
-  background-color: white;
-  padding-top:10vh;
+  /* background-color: white; */
+  /* padding-top:10vh;
+  background-image:url('imagens/fundo-mtm.jpg');
+  background-repeat:repeat;
+  background-size:auto;
+  background-position: center; */
+
 }
 
 
 section{
   min-height: 90vh;
-  padding-top:10vh;
+  padding-top: 15vh;
+  background-color: white;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 
 .corpo{
-  background-color: white;
+  /* background-color: white; */
+  padding-top:10vh;
+  background-image:url('imagens/fundo-mtm.jpg');
+  background-repeat:repeat;
+  background-size:auto;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .menu{
@@ -80,6 +94,7 @@ section{
   background-repeat:no-repeat;
   background-size:cover;
   background-position: center;
+  background-attachment: fixed;
 }
 /* 
 #linkreionalrds:hover{
@@ -95,4 +110,84 @@ section{
 .linksel{
   fill:chocolate  !important;
   fill-opacity: 0.2; 
+}
+
+
+.feiras{
+  padding: 2em;
+  /* background-image:url('imagens/fundo-mtm.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center;*/
+  background-blend-mode: color-dodge;
+  /* background-color: rgba(51, 160, 151, 0.274);  */
+  background-color: #e8edcd54;
+  /* background-color: transparent; */
+}
+
+.linkfeira{
+  border: 1px solid black;
+  background-color: #c14140;
+  border-radius: 10%;
+  box-sizing: border-box;
+  /* padding: 5%; */
+  display: block;
+  padding: 1%;
+  height: 100px;
+  max-width: 100px;
+  min-width: 100px;
+  text-align: center;
+  animation-name: animalink;
+  animation-duration: 1s;
+  color: #AEF2CC;
+  box-shadow:3px 3px slategray;
+  /* animation-iteration-count: infinite;
+  animation-direction: alternate; */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.linkfeira:hover{
+
+  /* box-shadow:10px 10px lightblue; */
+  cursor: pointer;
+  animation: linkanimah 1s ;
+  animation-fill-mode: forwards;
+}
+.linka{
+  text-decoration: none;
+  color:inherit;
+}
+
+@keyframes linkanimah {
+  from {color: #AEF2CC;transform: scale(100%, 100%);background-color: #c14140;border-style: solid;box-shadow:3px 3px slategray;}
+  to {color: black;transform: scale(120%, 120%);background-color: #c7c53d;border-style: dotted;box-shadow:10px 10px lightblue;}
+} 
+@keyframes animalink {
+  from { background-color: white} 
+  to { background-color:#c14140;}
+} 
+
+.titulo{
+  height: 60vh;
+}
+
+.titulo  h1{
+  font-family: 'Rubik Moonrocks', cursive;
+  font-size: 7em;
+
+}
+
+.titulo  p{
+  font-family: 'The Nautigal', cursive;
+  font-size: 4em;
+  text-align: right;
+  color: #2665b6;
+}
+
+.titulo img{
+  width: 100%;
+}
+
+.organizacao img{
+  width: 100px !important;
 }
