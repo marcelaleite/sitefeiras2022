@@ -12,7 +12,7 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#feiras">Home</a>
+                <a class="nav-link" aria-current="page" href="#topo">Home</a>
               </li>
 
             <?php if ($feira == ""){   ?> <!--Quando na pagina index utiliza o Home do menu para mostrar o carrosel-->

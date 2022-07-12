@@ -13,7 +13,7 @@ include_once "cabecalho.php";
     <!-- NAVBAR -->
     <?php include "menu.php"; ?>
 
-   <div class="container">
+   <div class="container" id="topo">
   <section class="feiras" id="feiras">
     
 <!-- 
@@ -41,22 +41,28 @@ include_once "cabecalho.php";
         </div>
         <div class=row>
           <div class="col">
-            <div class="linkfeira">
-              <img src="imagens/logo-rds.png" alt="Logo Rio do Sul" class="d-block w-100">
-              Rio do Sul
-            </div>
+            <a href="regRiodoSul.php" target="_blank" class='linka'>
+              <div class="linkfeira">
+                <img src="imagens/logo-rds.png" alt="Logo Rio do Sul" class="d-block w-100">
+                Rio do Sul
+              </div>
+            </a>
           </div>
           <div class="col">
-            <div class="linkfeira">
-              <img src="imagens/logo-ituporanga.png" alt="Logo Ituporanga" class="d-block w-100">
-              Ituporanga
-            </div>
+            <a href="regItuporanga.php" target="_blank" class='linka'>
+              <div class="linkfeira">
+                <img src="imagens/logo-ituporanga.png" alt="Logo Ituporanga" class="d-block w-100">
+                Ituporanga
+              </div>
+            </a>
           </div>
           <div class="col">
-            <div class="linkfeira">
-              <img src="imagens/logo-ibirama.png" alt="Logo Ibirama" class="d-block w-100">
-              Ibirama
-            </div>
+            <a href="regIbirama.php" target="_blank" class='linka'>
+              <div class="linkfeira">
+                <img src="imagens/logo-ibirama.png" alt="Logo Ibirama" class="d-block w-100">
+                Ibirama
+              </div>
+            </a>
           </div>
           <div class="col"><div class="linkfeira">Taió</div></div>
           <div class="col"><div class="linkfeira">Estadual</div></div>

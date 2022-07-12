@@ -54,7 +54,10 @@ body{
 
 section{
   min-height: 90vh;
-  padding-top:15vh;
+  padding-top: 15vh;
+  background-color: white;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 
@@ -108,10 +111,7 @@ section{
   fill:chocolate  !important;
   fill-opacity: 0.2; 
 }
-section{
-  background-color: white;
-  padding: 5%;
-}
+
 
 .feiras{
   padding: 2em;
@@ -120,7 +120,8 @@ section{
   background-size:cover;
   background-position: center;*/
   background-blend-mode: color-dodge;
-  background-color: rgba(51, 160, 151, 0.274); 
+  /* background-color: rgba(51, 160, 151, 0.274);  */
+  background-color: #e8edcd54;
   /* background-color: transparent; */
 }
 
@@ -152,6 +153,10 @@ section{
   animation: linkanimah 1s ;
   animation-fill-mode: forwards;
 }
+.linka{
+  text-decoration: none;
+  color:inherit;
+}
 
 @keyframes linkanimah {
   from {color: #AEF2CC;transform: scale(100%, 100%);background-color: #c14140;border-style: solid;box-shadow:3px 3px slategray;}
@@ -176,7 +181,7 @@ section{
   font-family: 'The Nautigal', cursive;
   font-size: 4em;
   text-align: right;
-  color: #c14140;
+  color: #2665b6;
 }
 
 .titulo img{
