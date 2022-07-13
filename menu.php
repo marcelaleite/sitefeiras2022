@@ -1,6 +1,6 @@
 
  <div class="container">
-  <nav class="navbar menu fixed-top  navbar-expand-lg bg-light  ">
+  <nav class="navbar menu fixed-top  navbar-expand-lg navbar-dark bg-dark" id='nav-menu'>
     <div class="container-fluid ">
       <a class="navbar-brand" href="index.php">
           <img src="imagens/Logo feira mtm-02a_sf.png" alt="" width="60">
@@ -12,7 +12,7 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.php">Home</a>
+                <a class="nav-link" aria-current="page" href="#feiras">Home</a>
               </li>
 
             <?php if ($feira == ""){   ?> <!--Quando na pagina index utiliza o Home do menu para mostrar o carrosel-->
@@ -36,11 +36,11 @@
               <a class="nav-link" aria-current="page" href="#areadoparticipante">Area do Participante</a>
             </li>
             <?php } ?>
-            <?php if ($feira == ""){ ?>
-              <li class="nav-item">
+             <?php // if ($feira == ""){ ?>
+              <!-- <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#feiras" id="mnregionais">Feiras</a>
-              </li>
-            <?php } ?>
+              </li> -->
+            <?php // } ?> 
             <!-- <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#programacao">Programação</a>
             </li> -->
@@ -60,5 +60,6 @@
           </ul>  
       </div>
     </div>
+
   </nav>
  </div> 

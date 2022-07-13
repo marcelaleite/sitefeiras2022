@@ -1,64 +1,31 @@
-.texto{
-    font-size: 2.5vw;
-    color: rgb(53, 158, 109);
-    font-weight: bold;
-   text-align: center;
-   font-family: 'Roboto Condensed', sans-serif;
-  }
-.textogal{
-  font-size: 4vw;
-  color: rgb(53, 158, 109);
-  font-weight: bold;
-  text-align: center;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-.texto1{
-   font-size: 1vw;
-   color: rgb(0, 36, 19);
-   font-weight: normal;
-  text-align: center;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-.texto2{
-    font-size: 1.5vw;
-    color: rgb(0, 36, 19);
-    font-weight: bold;
-   text-align: justify;
-   font-family: 'Roboto Condensed', sans-serif;
-  }
-.separacao{
-  background-color: red;
-  min-height: 30%;
-}
+
 .full{
   height: 100vh;
 }
 
- 
-
-#rlinks:hover {
-  fill: blue;
-  
-}
-
-body{
-  background-color: white;
-  padding-top:10vh;
-}
-
-
 section{
-  min-height: 90vh;
-  padding-top:10vh;
+  min-height: 85vh;
+  /* padding-top: 5vh; */
+  background-color: white;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 
 .corpo{
-  background-color: white;
+  background-color: #ffffff9a;
+  /* padding-top:1vh; */
+  background-image:url('imagens/fundo-mtm.jpg');
+  background-repeat:repeat;
+  background-size:auto;
+  background-position: center;
+  background-attachment: fixed;
+  background-blend-mode: color-dodge;
 }
 
 .menu{
   background-color: #5dc460 !important;
+  font-size: 1.2em;
 }
 
 .menuimg{
@@ -68,31 +35,91 @@ section{
   background-position: center;
 }
 
-.fundosvg{
-  background-image:url('imagens/trilha-nova-fundo.svg');
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position: center;
-}
-
-.fundosvg-1{
-  background-image:url('imagens/trilha-nova-fundo-1.svg');
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position: center;
-}
-/* 
-#linkreionalrds:hover{
-  background-color: red;
-} */
-
-/* .fundolink{
-  fill: chocolate;
-} */
-
-
-
 .linksel{
-  fill:chocolate  !important;
+  fill:rgb(58, 56, 54)  !important;
   fill-opacity: 0.2; 
+}
+
+.feiras{
+  padding: 1em;
+  background-blend-mode: color-dodge;
+  background-color: #e8edcd54;
+}
+
+.linkfeira{
+  height: 100px;
+  max-width: 110px;
+  min-width: 110px;
+  }
+
+.linkfeira:hover{
+  animation: linkanimah 1s ;
+  -webkit-animation: linkanimah 1s forwards ;
+  animation-fill-mode: forwards;
+}
+
+@keyframes linkanimah {
+  from {transform: scale(100%, 100%);box-shadow:3px 3px slategray;}
+  to {transform: scale(120%, 120%);box-shadow:10px 10px lightblue;}
+} 
+@-webkit-keyframes linkanimah {
+  from {-webkit-transform: scale(1);
+        box-shadow:3px 3px slategray;}
+  to {-webkit-transform:scale(1.2);
+      box-shadow:10px 10px lightblue;}
+} 
+
+.titulo{
+  height: 60vh;
+}
+
+.titulo  h1{
+  font-family: 'Rubik Moonrocks', cursive;
+  font-size: 7em;
+
+}
+
+.titulo  p{
+  /* font-family: 'The Nautigal', cursive; */
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 4em;
+  text-align: right;
+  color: #2665b6;
+}
+
+.titulo img{
+  width: 100%;
+}
+
+.organizacao img{
+  width: 100px !important;
+}
+
+
+.redes{
+  width: 70px;
+  top: 60vh;
+  left: 90vw;
+  display: none;
+
+}
+
+.redes li{
+  background-color: transparent;
+  border: none;
+  bottom: 5px;
+}
+
+svg:hover{
+  fill:rgba(184, 180, 169, 0.63);
+}
+
+.lead{
+  font-family: inherit;
+}
+
+
+.listalinks li{
+  background-color: transparent;
+  border:none;
 }
