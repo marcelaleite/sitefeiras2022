@@ -6,7 +6,9 @@
     
    
 
-    // $(document).ready(function(){
+     $(document).ready(function(){
+       $('#redes').slideDown('slow');
+       $('.linkfeira').fadeIn();
       // $('#mysvg').ready(function(){
 
       //   $('#my-svg').find('#linkreionalrds').hover(  //rio do sul
@@ -30,7 +32,7 @@
       //     function(){ $('#my-svg').find('#linktaio').removeClass('linksel');}
       //   );
 
-      // });
+     });
 
 
 
@@ -45,3 +47,4 @@
      
       
     // });
+

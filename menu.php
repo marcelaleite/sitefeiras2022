@@ -1,6 +1,6 @@
 
  <div class="container">
-  <nav class="navbar menu fixed-top  navbar-expand-lg bg-light  ">
+  <nav class="navbar menu fixed-top  navbar-expand-lg navbar-dark bg-dark" id='nav-menu'>
     <div class="container-fluid ">
       <a class="navbar-brand" href="index.php">
           <img src="imagens/Logo feira mtm-02a_sf.png" alt="" width="60">
@@ -12,7 +12,7 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#topo">Home</a>
+                <a class="nav-link" aria-current="page" href="#feiras">Home</a>
               </li>
 
             <?php if ($feira == ""){   ?> <!--Quando na pagina index utiliza o Home do menu para mostrar o carrosel-->
@@ -60,8 +60,6 @@
           </ul>  
       </div>
     </div>
-    <div>
-        <img src="imagens/logo_projeto feiras-transparente.png" style='height:70px;'  class="d-block w-100" alt="Projeto Feitas de Matemática">
-    </div>
+
   </nav>
  </div> 
