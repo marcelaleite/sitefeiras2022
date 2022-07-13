@@ -2,6 +2,10 @@ h2{
     font-family: 'Times New Roman', Times, serif;
 }
 
+h4{
+    font-family: 'Times New Roman', Times, serif;  
+}
+
 p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 22px;
@@ -30,10 +34,19 @@ h3{
     height: auto;
 }
 
-.galeria{
-    height: auto;
-}
+.galeria{height: auto;}
 
-.organizacao{
-    height: auto;
-}
+.organizacao{ height: auto;}
+
+  
+  #exampleModalLabel{
+    color: #339966;
+   
+  }
+  .modal-body{
+    align-self: center;
+  }
+
+  #galeriacar{
+    max-width: 1000px; max-height: 900px;
+  align-self: center;}

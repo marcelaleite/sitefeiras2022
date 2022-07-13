@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+ 
 <?php
 $titulo = "Feira Regional de Rio do Sul";
 $feira = isset($_GET['feira'])?$_GET['feira']:"";
@@ -11,9 +12,7 @@ include_once "cabecalho.php";
       <div class="row" >
           <div class="col">
               <!-- NAVBAR -->
-              <?php
-               include "menu.php";
-              ?>
+              <?php include "menu.php"; ?>
               <section>
                 <!-- COMEÇO DO CAROUSEL 1-->
                 <div class="row" >
@@ -143,50 +142,95 @@ include_once "cabecalho.php";
             </section> <!-- FIM FORMAÇÃO -->
               
             <section class = "areadoparticipante" id = "areadoparticipante"> <!-- INICIO AREA DO PARTICIPANTE  -->
-              <div class = "container">
-                <div class = "row">
-                  <div class = "col">
-                    <h1>Area do Participante</h1>
-                    <h2 >
-                      <span style="color: #339966;">
-                        Geleria de Fotos - Feira de Matemática 2018
-                      </span>
-                    </h2> <br><br>
-                  </div>
-                </div>
-                
-                <div class = "row">
-                  <div class = "col">
-                    <h2><b>Localização</b></h2>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3548.9904964928705!2d-49.81524668499615!3d-27.18803548300975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dfcef7ccc17f5d%3A0xc4ae1971c95ca54e!2sR.%20Irm%C3%A3%20L%C3%ADlia%2C%20203%20-%20Jardim%20das%20Hort%C3%AAnsias%2C%20Rio%20do%20Oeste%20-%20SC%2C%2089180-000!5e0!3m2!1spt-BR!2sbr!4v1655320365605!5m2!1spt-BR!2sbr" width="800" height="600" style="border:0;" allowfullscreen=""  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                      <br>
-                </div><br><br>
+              <div class="container">
+                <div class="section" >
+                  <h1>Área do Participante</h1>
                   
-                <h2><b> Datas Importantes </b></h2> <br>
-                  
-                <ul class = "espaçamento">
-                  <ul >
-                    <ul>
-                      <ul>
-                        <ul>
-                          <li>15/06 a 20/06 – Período de credenciamento das instituições <br></li>
-                          <li>26/06 a 10/07 – Período de inscrição dos trabalhos </li>
-                        </ul>
-                      </ul>
-                    </ul> 
-                  </ul>
-                </ul>
-                
-                <br>
-                <h2><b>Documentos</b></h2><br>
-                <p>
-                  Regimento – 24ª FRMat – clique aqui <br> <br>
-                  Relação dos Trabalhos Homologados – clique aqui <br> <br>
-                  Tabela de Premiação dos Trabalhos – clique aqui <br> <br>
-                  Ata da Assembleia Geral das Feiras – clique aqui 
-                </p> 
-                </div>  
+                  <div class = "row">
+                    <script>
+                      var myModal = document.getElementById('myModal')
+                      var myInput = document.getElementById('myInput')
 
+                      myModal.addEventListener('shown.bs.modal', function () {
+                        myInput.focus()
+                      })
+                    </script>
+                    <div class = "col" >
+                      <button type="button" style="width: 150px; height: 100px; background-color:blueviolet"  id="botao" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#localizaçao">
+                        <h4> Localização </h4> 
+                      </button> 
+                          
+                      <div class="modal fade" id="localizaçao" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">A Feira ira acontecer 19 de agosto de 2022,na escola EEB Expedicionario Mario Nardelli, Rua Irma Lilia, 203. Bairo Jardim da Hortencias, Rio do Oeste </h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3548.9904964928705!2d-49.81524668499615!3d-27.18803548300975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x551e6ab3e98cea1e!2sEscola%20de%20Educa%C3%A7%C3%A3o%20B%C3%A1sica%20Expedicion%C3%A1rio%20M%C3%A1rio%20Nardelli!5e0!3m2!1spt-BR!2sbr!4v1657655795398!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+
+                    <div class="col">
+                      <button type="button" style="width: 150px; height: 100px; background-color:blue"  id="botao2" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#datas">
+                          <h4> Datas Importantes </h4> 
+                        </button> 
+                            
+                        <div class="modal fade" id="datas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Datas Importantes </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                15/06 a 20/06 – Período de credenciamento das instituições <br> 
+                                26/06 a 10/07 – Período de inscrição dos trabalhos 
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>       
+                    </div>
+                    <div class="col">
+                      <button type="button" style="width: 150px; height: 100px; background-color:Green"  id="botao3" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#documentos">
+                          <h4> Documentos </h4> 
+                        </button> 
+                            
+                        <div class="modal fade" id="documentos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Documentos </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                Regimento – 24ª FRMat – clique aqui <br> 
+                                Relação dos Trabalhos Homologados – clique aqui <br> 
+                                Tabela de Premiação dos Trabalhos – clique aqui <br> 
+                                Ata da Assembleia Geral das Feiras – clique aqui 
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>       
+                    </div>
+                  </div>
+              
+                </div>
+              </div>  
             </section> <!-- FIM AREA DO PARTICIPANTE -->
 
             
@@ -238,56 +282,56 @@ include_once "cabecalho.php";
                 </h2>
                 <div class="row" >
                   <div class="col">
-                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div id="galeriacar" class="carousel carousel-dark slide" data-bs-ride="carousel">
             
                       <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="2000">
-                          <img  id="imagem1" src="imagens/FRMat2018/IMG_8010.jpg" class="d-block w-100" alt="imagem1">
+                          <img  id="imagem1" src="imagens/FRMat2018/IMG_8010.JPG" class="d-block w-100" alt="imagem1">
                           <div class="carousel-caption d-none d-md-block"> </div>            
                         </div>
                         
                         <div class="carousel-item " data-bs-interval="2000">
-                          <img  id="imagem2" src="imagens/FRMat2018/IMG_8011.jpg" class="d-block w-100" alt="imagem2">
+                          <img  id="imagem2" src="imagens/FRMat2018/IMG_8011.JPG" class="d-block w-100" alt="imagem2">
                           <div class="carousel-caption d-none d-md-block"></div>
                         </div>
                         
                         <div class="carousel-item " data-bs-interval="2000">
-                          <img  id="imagem3" src="imagens/FRMat2018/IMG_8019.jpg" class="d-block w-100" alt="imagem3">
+                          <img  id="imagem3" src="imagens/FRMat2018/IMG_8019.JPG" class="d-block w-100" alt="imagem3">
                           <div class="carousel-caption d-none d-md-block"></div>
                         </div>
             
                         <div class="carousel-item " data-bs-interval="2000">
-                          <img  id="imagem4" src="imagens/FRMat2018/IMG_8135.jpg" class="d-block w-100" alt="imagem4">
+                          <img  id="imagem4" src="imagens/FRMat2018/IMG_8135.JPG" class="d-block w-100" alt="imagem4">
                           <div class="carousel-caption d-none d-md-block"></div>
                         </div>
             
                         <div class="carousel-item " data-bs-interval="2000">
-                          <img  id="imagem5" src="imagens/FRMat2018/IMG_8160.jpg" class="d-block w-100" alt="imagem5">
+                          <img  id="imagem5" src="imagens/FRMat2018/IMG_8160.JPG" class="d-block w-100" alt="imagem5">
                           <div class="carousel-caption d-none d-md-block"></div>
                         </div>
             
                         <div class="carousel-item " data-bs-interval="2000">
-                          <img  id="imagem6" src="imagens/FRMat2018/IMG_8162.jpg" class="d-block w-100" alt="imagem6">
+                          <img  id="imagem6" src="imagens/FRMat2018/IMG_8162.JPG" class="d-block w-100" alt="imagem6">
                           <div class="carousel-caption d-none d-md-block"></div>
                         </div>
             
                         <div class="carousel-item " data-bs-interval="2000">
-                          <img  id="imagem7" src="imagens/FRMat2018/IMG_8167.jpg" class="d-block w-100" alt="imagem7">
+                          <img  id="imagem7" src="imagens/FRMat2018/IMG_8167.JPG" class="d-block w-100" alt="imagem7">
                           <div class="carousel-caption d-none d-md-block"></div>
                         </div>
             
                         <div class="carousel-item " data-bs-interval="2000">
-                          <img  id="imagem8" src="imagens/FRMat2018/IMG_8180.jpg" class="d-block w-100" alt="imagem8">
+                          <img  id="imagem8" src="imagens/FRMat2018/IMG_8180.JPG" class="d-block w-100" alt="imagem8">
                           <div class="carousel-caption d-none d-md-block"></div>
                         </div>
             
                         <div class="carousel-item " data-bs-interval="2000">
-                          <img  id="imagem9" src="imagens/FRMat2018/IMG_8190.jpg" class="d-block w-100" alt="imagem9">
+                          <img  id="imagem9" src="imagens/FRMat2018/IMG_8190.JPG" class="d-block w-100" alt="imagem9">
                           <div class="carousel-caption d-none d-md-block"></div>
                         </div>
             
                         <div class="carousel-item " data-bs-interval="2000">
-                          <img  id="imagem10" src="imagens/FRMat2018/IMG_8198.jpg" class="d-block w-100" alt="imagem10">
+                          <img  id="imagem10" src="imagens/FRMat2018/IMG_8198.JPG" class="d-block w-100" alt="imagem10">
                           <div class="carousel-caption d-none d-md-block"></div>
                         </div>
             
