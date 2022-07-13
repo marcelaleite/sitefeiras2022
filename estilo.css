@@ -1,60 +1,11 @@
-.texto{
-    font-size: 2.5vw;
-    color: rgb(53, 158, 109);
-    font-weight: bold;
-   text-align: center;
-   font-family: 'Roboto Condensed', sans-serif;
-  }
-.textogal{
-  font-size: 4vw;
-  color: rgb(53, 158, 109);
-  font-weight: bold;
-  text-align: center;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-.texto1{
-   font-size: 1vw;
-   color: rgb(0, 36, 19);
-   font-weight: normal;
-  text-align: center;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-.texto2{
-    font-size: 1.5vw;
-    color: rgb(0, 36, 19);
-    font-weight: bold;
-   text-align: justify;
-   font-family: 'Roboto Condensed', sans-serif;
-  }
-.separacao{
-  background-color: red;
-  min-height: 30%;
-}
+
 .full{
   height: 100vh;
 }
 
- 
-
-#rlinks:hover {
-  fill: blue;
-  
-}
-
-body{
-  /* background-color: white; */
-  /* padding-top:10vh;
-  background-image:url('imagens/fundo-mtm.jpg');
-  background-repeat:repeat;
-  background-size:auto;
-  background-position: center; */
-
-}
-
-
 section{
-  min-height: 90vh;
-  padding-top: 15vh;
+  min-height: 85vh;
+  /* padding-top: 5vh; */
   background-color: white;
   padding-left: 5%;
   padding-right: 5%;
@@ -62,17 +13,19 @@ section{
 
 
 .corpo{
-  /* background-color: white; */
-  padding-top:10vh;
+  background-color: #ffffff9a;
+  /* padding-top:1vh; */
   background-image:url('imagens/fundo-mtm.jpg');
   background-repeat:repeat;
   background-size:auto;
   background-position: center;
   background-attachment: fixed;
+  background-blend-mode: color-dodge;
 }
 
 .menu{
   background-color: #5dc460 !important;
+  font-size: 1.2em;
 }
 
 .menuimg{
@@ -82,89 +35,38 @@ section{
   background-position: center;
 }
 
-.fundosvg{
-  background-image:url('imagens/trilha-nova-fundo.svg');
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position: center;
-}
-
-.fundosvg-1{
-  background-image:url('imagens/trilha-nova-fundo-1.svg');
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-/* 
-#linkreionalrds:hover{
-  background-color: red;
-} */
-
-/* .fundolink{
-  fill: chocolate;
-} */
-
-
-
 .linksel{
-  fill:chocolate  !important;
+  fill:rgb(58, 56, 54)  !important;
   fill-opacity: 0.2; 
 }
 
-
 .feiras{
-  padding: 2em;
-  /* background-image:url('imagens/fundo-mtm.jpg');
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position: center;*/
+  padding: 1em;
   background-blend-mode: color-dodge;
-  /* background-color: rgba(51, 160, 151, 0.274);  */
   background-color: #e8edcd54;
-  /* background-color: transparent; */
 }
 
 .linkfeira{
-  border: 1px solid black;
-  background-color: #c14140;
-  border-radius: 10%;
-  box-sizing: border-box;
-  /* padding: 5%; */
-  display: block;
-  padding: 1%;
   height: 100px;
-  max-width: 100px;
-  min-width: 100px;
-  text-align: center;
-  animation-name: animalink;
-  animation-duration: 1s;
-  color: #AEF2CC;
-  box-shadow:3px 3px slategray;
-  /* animation-iteration-count: infinite;
-  animation-direction: alternate; */
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+  max-width: 110px;
+  min-width: 110px;
+  }
 
 .linkfeira:hover{
-
-  /* box-shadow:10px 10px lightblue; */
-  cursor: pointer;
   animation: linkanimah 1s ;
+  -webkit-animation: linkanimah 1s forwards ;
   animation-fill-mode: forwards;
-}
-.linka{
-  text-decoration: none;
-  color:inherit;
 }
 
 @keyframes linkanimah {
-  from {color: #AEF2CC;transform: scale(100%, 100%);background-color: #c14140;border-style: solid;box-shadow:3px 3px slategray;}
-  to {color: black;transform: scale(120%, 120%);background-color: #c7c53d;border-style: dotted;box-shadow:10px 10px lightblue;}
+  from {transform: scale(100%, 100%);box-shadow:3px 3px slategray;}
+  to {transform: scale(120%, 120%);box-shadow:10px 10px lightblue;}
 } 
-@keyframes animalink {
-  from { background-color: white} 
-  to { background-color:#c14140;}
+@-webkit-keyframes linkanimah {
+  from {-webkit-transform: scale(1);
+        box-shadow:3px 3px slategray;}
+  to {-webkit-transform:scale(1.2);
+      box-shadow:10px 10px lightblue;}
 } 
 
 .titulo{
@@ -178,7 +80,8 @@ section{
 }
 
 .titulo  p{
-  font-family: 'The Nautigal', cursive;
+  /* font-family: 'The Nautigal', cursive; */
+  font-family: 'Fredericka the Great', cursive;
   font-size: 4em;
   text-align: right;
   color: #2665b6;
@@ -190,4 +93,33 @@ section{
 
 .organizacao img{
   width: 100px !important;
+}
+
+
+.redes{
+  width: 70px;
+  top: 60vh;
+  left: 90vw;
+  display: none;
+
+}
+
+.redes li{
+  background-color: transparent;
+  border: none;
+  bottom: 5px;
+}
+
+svg:hover{
+  fill:rgba(184, 180, 169, 0.63);
+}
+
+.lead{
+  font-family: inherit;
+}
+
+
+.listalinks li{
+  background-color: transparent;
+  border:none;
 }
