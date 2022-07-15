@@ -12,7 +12,7 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#feiras">Home</a>
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
               </li>
 
             <?php if ($feira == ""){   ?> <!--Quando na pagina index utiliza o Home do menu para mostrar o carrosel-->
@@ -40,10 +40,11 @@
               <!-- <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#feiras" id="mnregionais">Feiras</a>
               </li> -->
-            <?php // } ?> 
-            <!-- <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#programacao">Programação</a>
-            </li> -->
+            <?php if($feira!=null){ ?> 
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#programacao">Programação</a>
+              </li>
+            <?php }?> 
             
             <li class="nav-item">
               <a class="nav-link " aria-current="page" href="#organizacao">Organização e apoio</a>

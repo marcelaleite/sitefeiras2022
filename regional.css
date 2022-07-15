@@ -1,24 +1,15 @@
-h2{
-    font-family: 'Times New Roman', Times, serif;
-}
-
-h4{
-    font-family: 'Times New Roman', Times, serif;  
-}
 
 p{
-    font-family: 'Times New Roman', Times, serif;
     font-size: 22px;
 }
 
 h3{
-    font-family: 'Times New Roman', Times, serif;
     color: #339966;
     font-style: italic;
 }
 
 .espaçamento{
-    font-family: 'Times New Roman', Times, serif;
+   
     font-size: 20px;
 }
 
@@ -50,3 +41,5 @@ h3{
   #galeriacar{
     max-width: 1000px; max-height: 900px;
   align-self: center;}
+
+ 
