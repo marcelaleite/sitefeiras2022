@@ -3,7 +3,7 @@
 <?php
 
 $titulo = "Feiras 2022";
-$feira = "";
+$feira = "projeto";
 include_once "cabecalho.php";
 
 ?>
@@ -22,13 +22,13 @@ include_once "cabecalho.php";
             </svg>
           </a>  
         </li>
-        <li class='list-group-item'>
+        <!-- <li class='list-group-item'>
           <a class='btn btn-success  target='_blank'  flex-fill' alt='Twitter'>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
               <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
             </svg> 
           </a> 
-        </li>
+        </li> -->
         <li class='list-group-item'>
           <a href="https://www.facebook.com/matematica.ifc.riodosul"  target='_blank'  class='btn btn-success flex-fill' alt='Facebook'>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
@@ -54,38 +54,38 @@ include_once "cabecalho.php";
             </div>
             <ul class="list-group list-group-horizontal-lg flex-fill listalinks">
               <li class="list-group-item">
-                <a href="regRiodoSul.php" target="_blank" class='btn btn-success linkfeira'>
+                <a href="regRiodoSul.php" target="_blank" class='btn btn-success linkfeira' id='linkrds'>
                     <img src="imagens/logo-rds.png" alt="Logo Rio do Sul" class="d-block w-100">
                     Rio do Sul
                 </a>
               </li>
               <li class="list-group-item">
-                <a href="regItuporanga.php" target="_blank" class='btn btn-success linkfeira'>
+                <a href="regItuporanga.php" target="_blank" class='btn btn-success linkfeira' id='linkitu'>
                       <img src="imagens/logo-ituporanga.png" alt="Logo Ituporanga" class="d-block w-100">
                       Ituporanga
                   </a>
               </li>
               <li class="list-group-item">
-                <a href="regIbirama.php" target="_blank" class='btn btn-success linkfeira'>
+                <a href="regIbirama.php" target="_blank" class='btn btn-success linkfeira' id='linkibi'>
                       <img src="imagens/logo-ibirama.png" alt="Logo Ibirama" class="d-block w-100">
                       Ibirama
                   </a>
 
               </li>
               <li class="list-group-item">
-              <a href="regTaio.php" target="_blank" class='btn btn-success linkfeira'>
+              <a href="regTaio.php" target="_blank" class='btn btn-success linkfeira' id='linktai'>
                     <img src="imagens/logo-taio.png" alt="Logo Taió" class="d-block w-100">
                     Taió
                 </a>
               </li>
               <li class="list-group-item">
-                <a class='btn btn-success linkfeira'>
+                <a class='btn btn-success linkfeira' id='linkcat'>
                   <img src="imagens/logo-sc.png" alt="Logo Santa Catarina" class="d-block w-100">
                     Catarinense
                 </a>
               </li>
               <li class="list-group-item">
-               <a class='btn btn-success linkfeira'>
+               <a class='btn btn-success linkfeira' id='linknac'>
                   <div >
                   <img src="imagens/logo-brasil.png" alt="Logo Brasil" class="d-block w-100">
                     Nacional
@@ -176,35 +176,7 @@ include_once "cabecalho.php";
             </div>
           </div>
       </section> 
-      <section class="organizacao" id="organizacao">
-          <div class="row">
-            <div class="col">
-              <p>Organização:</p>
-              <div class="row">
-                <div class="col">
-                  <img src="imagens/IFC_vertical.png"  class="d-block w-100"  alt="IFC">
-                </div>
-                <div class="col">
-                  <img src="imagens/IFSC_vertical_marca2015_PNG.png" class="d-block w-100"  alt="IFSC">
-                </div>
-                <div class="col">
-                  <img src="imagens/FURB.png" class="d-block w-100"  alt="FURB">
-                </div>  
-              </div>
-            </div>
-            <div class="col">
-              <p>Apoio:</p>
-              <div class="row">
-                <div class="col">
-                  <img src="imagens/SBEM.png" class="d-block w-100"  alt="SBEM">
-                </div>
-                <div class="col">
-                  <img src="imagens/UFSC Blumenau.png" class="d-block w-100"  alt="UFSC">
-                </div>
-              </div>
-            </div>
-          </div>
-      </section>
+  
     </div>
   </div>
 
