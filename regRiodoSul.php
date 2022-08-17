@@ -19,8 +19,9 @@ include_once "cabecalho.php";
               <!-- NAVBAR -->
               
                 <?php include "menu.php"; ?>
+              <!--
               <section class="home" id="home">
-                <!-- COMEÇO DO CAROUSEL 1-->
+                
                 <div class="row" >
                   <div class="col">
                     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
@@ -43,7 +44,10 @@ include_once "cabecalho.php";
                     </div>
                   </div>
                 </div>
-            </section> <!-- FIM DO CAROUSEL-->
+            </section>  FIM DO CAROUSEL-->
+            <section >
+                <img id= "logo"src="imagens/rsllogo.jpeg"  alt="">
+            </section>
 
             <section class="informaçoes" id= "informaçoes" > <!-- INICIO INFORMAÇÕES -->
                 <h1>24ª FRMat e XIII FRCTec – Regional Rio do Sul</h1>  
@@ -61,7 +65,7 @@ include_once "cabecalho.php";
                   <b>Bairro:</b> Jardim das Hortênsias <br>
                   <b>Cidade:</b> Rio do Oeste <br>
                 </p><br>
-            
+                
                 
 
                 
@@ -117,36 +121,6 @@ include_once "cabecalho.php";
                   </p> 
             </section> <!-- FIM INFORMAÇÕES -->
                   
-            <section class = "formacao" id = "formacao" > <!-- INICIO FORMAÇÃO -->
-              
-              <h1>Formação 2022 – Regional de Rio do Sul</h1> <br> <!--TITULO-->
-              <!--SUBTITULO--><h2><span style= "color: #339966;">Formação para participantes das Feiras de Matemática 2022 – Regional de Rio do Sul</span></h2> <br> 
-              <p>
-                Os membros do Projeto de Apoio à Organização e Participação de Professores e Alunos em Feiras de Matemática, Ciência e Tecnologia,
-                do IFC Campus Rio do Sul convidam para a Formação para participantes das Feiras de Matemática 2022.
-              </p><br>
-              
-              <h2><b>Objetivo</b></h2><br> <!--SUBTITULO-->
-              <p>Promover um ambiente dialógico que contribua para a formação contínua e permanente de professores,
-                acadêmicos, gestores e demais interessados nas Feiras de Matemática.</p><br>
-                
-                <h2><b>Metodologia de desenvolvimento e periodicidade dos encontros</b></h2><br> <!--SUBTITULO-->
-                <p>A dinâmica da formação envolverá 4 (quatro) encontros presenciais,
-                  tendo como local a Unidade Urbana do IFC – Campus Rio do Sul,
-                  localizado à Rua Abraham Lincoln, 210, Bairro Jardim América, 
-                  e atividades de estudo (não presenciais).</p> 
-                  <p>Tais encontros ocorrerão na primeira segunda-feira dos meses de maio,
-                    junho, julho e setembro (02/05, 06/06, 04/07 e 05/09),
-                    com duração de 3h, no período de 13h30min às 16h30min.</p>
-                    
-                <h2><b>Certificação</b></h2><br><!--SUBTITULO-->
-                <p>A certificação dos participantes será de 30h e está condicionada à presença de,
-                  no mínimo, 3 (três) encontros presenciais e realização das atividades de estudo.</p>
-                  
-                  <h2><b>Inscrição</b></h2><!--SUBTITULO--> <br>
-                  <!--<p>A inscrição será realizada pelo link https://forms.gle/YJLggJSvaXB4mxvx7 até dia 02 de maio.</p><br>-->
-                  <p><b>Contato:</b>projetofeiras.riodosul@ifc.edu.br</p><br>
-            </section> <!-- FIM FORMAÇÃO -->
               
             <section class = "areadoparticipante" id = "areadoparticipante"> <!-- INICIO AREA DO PARTICIPANTE  -->
               <div class="container">
@@ -248,6 +222,9 @@ include_once "cabecalho.php";
                         </div>       
                     </div>
                   </div> <!--FIM DA PAGINA MODAL E ICONES-->
+                  <br>
+                  <br>
+                  <br>
                   <div class="row">
                     <div class="col">
                       <br> 
@@ -358,7 +335,11 @@ include_once "cabecalho.php";
                     13h – Retorno da exposição e visitação pública <br>
                     15h30min – Desmontagem dos trabalhos <br>
                     15h45min – Premiação 
-                  </p> <br>
+              </p> 
+              
+                  <input type="image" src="imagens/Logo feira mtm-01a_sf.png" class="image1" alt="">
+              
+            
             </section> <!-- FIM PROGRAMAÇÃO -->
             
             <section class = "organizacao" id = "organizacao"> <!-- INICIO ORGANIZAÇÃO E APOIO -->
@@ -397,25 +378,37 @@ include_once "cabecalho.php";
                 <div id="carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
 
                   <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="2000">
+                    <div class="carousel-item active" data-bs-interval="5000">
                       <img   src="imagens/FRMat2018/IMG_8010.JPG"  class="d-block w-100" alt="Logos Feira e Data/Local do Evento">
                       <div class="carousel-caption d-none d-md-block"></div>
                     </div>
                     
-                    <div class="carousel-item" data-bs-interval="2000">
+                    <div class="carousel-item" data-bs-interval="5000">
                       <img src="imagens/FRMat2018/IMG_8011.JPG" class="d-block w-100" alt="...">
                       <div class="carousel-caption d-none d-md-block"></div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-bs-interval="5000">
                       <img src="imagens/FRMat2018/IMG_8160.JPG" class="d-block w-100" alt="...">
                       <div class="carousel-caption d-none d-md-block"></div>
                     </div> 
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-bs-interval="5000">
                       <img src="imagens/FRMat2018/IMG_8198.JPG" class="d-block w-100" alt="...">
                       <div class="carousel-caption d-none d-md-block"></div>
                     </div>             
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-bs-interval="5000">
                       <img src="imagens/FRMat2018/IMG_8135.JPG" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block"></div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                      <img src="imagens/FRMat2018/IMG_8162.JPG" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block"></div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                      <img src="imagens/FRMat2018/IMG_8180.JPG" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block"></div>
+                    </div> 
+                    <div class="carousel-item" data-bs-interval="5000">
+                      <img src="imagens/FRMat2018/IMG_8198.JPG" class="d-block w-100" alt="...">
                       <div class="carousel-caption d-none d-md-block"></div>
                     </div> 
                   </div>

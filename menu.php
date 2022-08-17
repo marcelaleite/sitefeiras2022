@@ -10,12 +10,12 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            
+            <?php if ($feira == ""){   ?> 
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#home">Home</a>
+                <a class="nav-link" aria-current="page" href="#feiras">Home</a>
               </li>
-
-            <?php if ($feira == ""){   ?> <!--Quando na pagina index utiliza o Home do menu para mostrar o carrosel-->
+            
+            <?php }if ($feira == ""){   ?> 
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#projeto">Sobre</a> 
               </li>
@@ -26,7 +26,7 @@
               </li>
 
               
-            <?php }  if($feira != ""){?>
+            <?php }  if($feira == ""){?>
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#formacao">Formação</a> 
               </li>
