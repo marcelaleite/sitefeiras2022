@@ -15,23 +15,23 @@
                 <a class="nav-link" aria-current="page" href="#feiras">Home</a>
               </li>
 
-            <?php if ($feira == ""){   ?> <!--Quando na pagina index utiliza o Home do menu para mostrar o carrosel-->
+            <?php if ($feira == "projeto"){   ?> <!--Quando na pagina index utiliza o Home do menu para mostrar o carrosel-->
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#projeto">Sobre</a> 
               </li>
 
-            <?php } if($feira != ""){?>
+            <?php } if($feira != "projeto"){?>
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#informaçoes">Informações</a> 
               </li>
 
               
-            <?php }  if($feira != ""){?>
+            <?php }  if($feira != "projeto"){?>
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#formacao">Formação</a> 
               </li>
             <?php }?>
-            <?php if($feira != ""){ ?>
+            <?php if($feira != "projeto"){ ?>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#areadoparticipante">Area do Participante</a>
             </li>
@@ -44,10 +44,12 @@
             <!-- <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#programacao">Programação</a>
             </li> -->
-            
+            <?php
+                if ($feira != "projeto"){ ?> 
             <li class="nav-item">
               <a class="nav-link " aria-current="page" href="#organizacao">Organização e apoio</a>
             </li>
+            <?php } ?>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#galeria">Galeria</a>
             </li>
