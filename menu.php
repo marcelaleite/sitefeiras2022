@@ -9,56 +9,53 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <?php if ($feira == ""){   ?> 
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#feiras">Home</a>
-              </li>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <?php if ($feira == ""){   ?> 
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#feiras">Home</a>
+            </li>
             
-            <?php }if ($feira == ""){   ?> 
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#projeto">Sobre</a> 
-              </li>
-
-            <?php } if($feira != ""){?>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#informaçoes">Informações</a> 
-              </li>
-
+          <?php }if ($feira == ""){   ?> 
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#projeto">Sobre</a> 
+            </li>
+            
+          <?php } if($feira != ""){?>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#informaçoes">Informações</a> 
+            </li>
               
-            <?php }  if($feira == ""){?>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#formacao">Formação</a> 
-              </li>
-            <?php }?>
-            <?php if($feira != ""){ ?>
+          <?php }?>
+          <?php if($feira != ""){ ?>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#areadoparticipante">Area do Participante</a>
             </li>
-            <?php } ?>
-             <?php // if ($feira == ""){ ?>
-              <!-- <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#feiras" id="mnregionais">Feiras</a>
-              </li> -->
-            <?php if($feira!=null){ ?> 
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#programacao">Programação</a>
-              </li>
-            <?php }?> 
-            
+          <?php } ?>
+                
+          <!-- <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#feiras" id="mnregionais">Feiras</a>
+          </li> -->
+          <?php if($feira!=null){ ?> 
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#organizacao">Organização e apoio</a>
+              <a class="nav-link" aria-current="page" href="#programacao">Programação</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#galeria">Galeria</a>
+          <?php }?> 
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#organizacao">Organização e apoio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#galeria">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="formacao.php">Formação</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-current="page" href="#contato">Contato</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-current="page" href="#contato">Contato</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-current="page" href="#inscrever">Inscreva-se</a>
-            </li>
-          </ul>  
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-current="page" href="#inscrever">Inscreva-se</a>
+          </li>
+        </ul>  
       </div>
     </div>
 

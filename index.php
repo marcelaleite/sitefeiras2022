@@ -97,35 +97,7 @@ include_once "cabecalho.php";
         </div>
 
       </section>
-      <section class = "formacao" id = "formacao" > <!-- INICIO FORMAÇÃO -->
-        <h1>Formação 2022 </h1> <br> <!--TITULO-->
-        <!--SUBTITULO--><h2><span style= "color: #339966;">Formação para participantes das Feiras de Matemática 2022 /span></h2> <br> 
-        <p>
-          Os membros do Projeto de Apoio à Organização e Participação de Professores e Alunos em Feiras de Matemática, Ciência e Tecnologia,
-          do IFC Campus Rio do Sul convidam para a Formação para participantes das Feiras de Matemática 2022.
-        </p><br>
-        
-        <h2><b>Objetivo</b></h2><br> <!--SUBTITULO-->
-        <p>Promover um ambiente dialógico que contribua para a formação contínua e permanente de professores,
-          acadêmicos, gestores e demais interessados nas Feiras de Matemática.</p><br>
-          
-          <h2><b>Metodologia de desenvolvimento e periodicidade dos encontros</b></h2><br> <!--SUBTITULO-->
-          <p>A dinâmica da formação envolverá 4 (quatro) encontros presenciais,
-            tendo como local a Unidade Urbana do IFC – Campus Rio do Sul,
-            localizado à Rua Abraham Lincoln, 210, Bairro Jardim América, 
-            e atividades de estudo (não presenciais).</p> 
-            <p>Tais encontros ocorrerão na primeira segunda-feira dos meses de maio,
-              junho, julho e setembro (02/05, 06/06, 04/07 e 05/09),
-              com duração de 3h, no período de 13h30min às 16h30min.</p>
-              
-          <h2><b>Certificação</b></h2><br><!--SUBTITULO-->
-          <p>A certificação dos participantes será de 30h e está condicionada à presença de,
-            no mínimo, 3 (três) encontros presenciais e realização das atividades de estudo.</p>
-            
-            <h2><b>Inscrição</b></h2><!--SUBTITULO--> <br>
-            <!--<p>A inscrição será realizada pelo link https://forms.gle/YJLggJSvaXB4mxvx7 até dia 02 de maio.</p><br>-->
-            <p><b>Contato:</b>projetofeiras.riodosul@ifc.edu.br</p><br>
-      </section> <!-- FIM FORMAÇÃO -->
+      
       <section class="projeto" id="projeto">
           <!-- COMEÇO DA PÁG 1-->
           <div class="row">
