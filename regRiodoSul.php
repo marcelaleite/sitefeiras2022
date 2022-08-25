@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+ 
 <?php
 $titulo = "Feira Regional de Rio do Sul";
-$feira = isset($_GET['feira'])?$_GET['feira']:"";
+$feira =  "feira";
+/* $feira = isset($_GET['feira'])?$_GET['feira']:""; */ 
+
 include_once "cabecalho.php";
 ?>
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
+</head>
+
 
 <body class=" container justify-content-center"> <!-- -->
-  <div class = "container ">
+  <div class = "container">
       <div class="row" >
           <div class="col">
               <!-- NAVBAR -->
-              <?php
-               include "menu.php";
-              ?>
-              <section>
-                <!-- COMEÇO DO CAROUSEL 1-->
+              
+                <?php include "menu.php"; ?>
+              <!--
+              <section class="home" id="home">
+                
                 <div class="row" >
                   <div class="col">
                     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
@@ -29,24 +36,34 @@ include_once "cabecalho.php";
                       </div>
                       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
+                        <span class="visually-hidden">Anterior</span>
                       </button>
                       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
+                        <span class="visually-hidden">Próxima</span>
                       </button>
                     </div>
                   </div>
                 </div>
-            </section> <!-- FIM DO CAROUSEL-->
+            </section>  FIM DO CAROUSEL-->
+            <section >
+              <div class="container">
+                <div class="row">
+                  <div class="col"><img id= "logo"src="imagens/rsllogo.jpeg"  alt=""></div>  
+                  <div class="col">
+                    <h1>24ª FRMat e XIII FRCTec – Regional Rio do Sul</h1>  
+                    <br>
+                    <h2>
+                    <span style= "color: #339966;">
+                      24ª Feira Regional de Matemática Rio do Sul e XIII Feira Regional de Ciências e Tecnologia da Regional de Rio do Sul
+                    </span>
+                  </div>  
+                </div>
+              </div>  
+            </section>
 
             <section class="informaçoes" id= "informaçoes" > <!-- INICIO INFORMAÇÕES -->
-                <h1>24ª FRMat e XIII FRCTec – Regional Rio do Sul</h1>  
-                <br>
-                <h2>
-                  <span style= "color: #339966;">
-                    24ª Feira Regional de Matemática Rio do Sul e XIII Feira Regional de Ciências e Tecnologia da Regional de Rio do Sul
-                  </span>
+                
                 </h2> <br> <br>
 
                 <p> 
@@ -56,7 +73,7 @@ include_once "cabecalho.php";
                   <b>Bairro:</b> Jardim das Hortênsias <br>
                   <b>Cidade:</b> Rio do Oeste <br>
                 </p><br>
-            
+                
                 
 
                 
@@ -109,84 +126,208 @@ include_once "cabecalho.php";
                     O Projeto de Formação, Apoio à Organização e Participação de Professores e Alunos em Feiras de Matemática, 
                     Ciência e Tecnologia está contribuindo com esta feira na coordenação geral, na formação aos orientadores,
                     na comissão de avaliação e também na certificação da feira. (e-mail: projetofeiras.riodosul@ifc.edu.br).
-                  </p>
-                </section> <!-- FIM INFORMAÇÕES -->
+                  </p> 
+            </section> <!-- FIM INFORMAÇÕES -->
                   
-                <section class = "formacao" id = "formacao" > <!-- INICIO FORMAÇÃO -->
-                  <h1>Formação 2022 – Regional de Rio do Sul</h1> <br> <!--TITULO-->
-                  <!--SUBTITULO--><h2><span style= "color: #339966;">Formação para participantes das Feiras de Matemática 2022 – Regional de Rio do Sul</span></h2> <br> 
-                  <p>
-                    Os membros do Projeto de Apoio à Organização e Participação de Professores e Alunos em Feiras de Matemática, Ciência e Tecnologia,
-                    do IFC Campus Rio do Sul convidam para a Formação para participantes das Feiras de Matemática 2022.
-                  </p><br>
-                  
-                  <h2><b>Objetivo</b></h2><br> <!--SUBTITULO-->
-                  <p>Promover um ambiente dialógico que contribua para a formação contínua e permanente de professores,
-                    acadêmicos, gestores e demais interessados nas Feiras de Matemática.</p><br>
-                    
-                    <h2><b>Metodologia de desenvolvimento e periodicidade dos encontros</b></h2><br> <!--SUBTITULO-->
-                    <p>A dinâmica da formação envolverá 4 (quatro) encontros presenciais,
-                      tendo como local a Unidade Urbana do IFC – Campus Rio do Sul,
-                      localizado à Rua Abraham Lincoln, 210, Bairro Jardim América, 
-                      e atividades de estudo (não presenciais).</p> 
-                      <p>Tais encontros ocorrerão na primeira segunda-feira dos meses de maio,
-                        junho, julho e setembro (02/05, 06/06, 04/07 e 05/09),
-                        com duração de 3h, no período de 13h30min às 16h30min.</p>
-                        
-                    <h2><b>Certificação</b></h2><br><!--SUBTITULO-->
-                    <p>A certificação dos participantes será de 30h e está condicionada à presença de,
-                      no mínimo, 3 (três) encontros presenciais e realização das atividades de estudo.</p>
-                      
-                      <h2><b>Inscrição</b></h2><!--SUBTITULO--> <br>
-                      <p>A inscrição será realizada pelo link https://forms.gle/YJLggJSvaXB4mxvx7 até dia 02 de maio.</p><br>
-                      <p><b>Contato:</b>projetofeiras.riodosul@ifc.edu.br</p>
-            </section> <!-- FIM FORMAÇÃO -->
               
             <section class = "areadoparticipante" id = "areadoparticipante"> <!-- INICIO AREA DO PARTICIPANTE  -->
-              <div class = "container">
-                <div class = "row">
-                  <div class = "col">
-                    <h1>Area do Participante</h1>
-                    <h2 >
-                      <span style="color: #339966;">
-                        Geleria de Fotos - Feira de Matemática 2018
-                      </span>
-                    </h2> <br><br>
-                  </div>
-                </div>
-                
-                <div class = "row">
-                  <div class = "col">
-                    <h2><b>Localização</b></h2>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3548.9904964928705!2d-49.81524668499615!3d-27.18803548300975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dfcef7ccc17f5d%3A0xc4ae1971c95ca54e!2sR.%20Irm%C3%A3%20L%C3%ADlia%2C%20203%20-%20Jardim%20das%20Hort%C3%AAnsias%2C%20Rio%20do%20Oeste%20-%20SC%2C%2089180-000!5e0!3m2!1spt-BR!2sbr!4v1655320365605!5m2!1spt-BR!2sbr" width="800" height="600" style="border:0;" allowfullscreen=""  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                      <br>
-                </div><br><br>
-                  
-                <h2><b> Datas Importantes </b></h2> <br>
-                  
-                <ul class = "espaçamento">
-                  <ul >
-                    <ul>
-                      <ul>
-                        <ul>
-                          <li>15/06 a 20/06 – Período de credenciamento das instituições <br></li>
-                          <li>26/06 a 10/07 – Período de inscrição dos trabalhos </li>
-                        </ul>
-                      </ul>
-                    </ul> 
-                  </ul>
-                </ul>
-                
-                <br>
-                <h2><b>Documentos</b></h2><br>
-                <p>
-                  Regimento – 24ª FRMat – clique aqui <br> <br>
-                  Relação dos Trabalhos Homologados – clique aqui <br> <br>
-                  Tabela de Premiação dos Trabalhos – clique aqui <br> <br>
-                  Ata da Assembleia Geral das Feiras – clique aqui 
-                </p> 
-                </div>  
+              <div class="container">
+                <div class="section" >
+                  <h1>Área do Participante</h1> 
+                  <h2><span style= "color: #339966;">Área destinada aos participantes das Feiras de Matemática 2022 – Regional de Rio do Sul</span></h2><br><br>
+                  <div class = "row"> <!--INICIO DA PAGINA MODAL E ICONES-->
+                    <script>
+                      var myModal = document.getElementById('modal fade')
+                      var myInput = document.getElementById('myInput')
 
+                      myModal.addEventListener('shown.bs.modal', function () {
+                        myInput.focus()
+                      })
+                    </script>
+                    <div class = "col" >
+                      <i>
+                        <center>
+                          <svg xmlns="http://www.w3.org/2000/svg" class="btn btn-default" data-bs-toggle="modal" data-bs-target="#localizaçao"  width="150" height="100" style="color:red" fill="currentColor"  class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                          </svg>
+                          <h4><span style="color:red"> Localização</span></h4>
+                        </center> 
+                      </i>
+                      <div class="modal fade" id="localizaçao" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">A Feira ira acontecer 19 de agosto de 2022,na escola EEB Expedicionario Mario Nardelli, Rua Irma Lilia, 203. Bairo Jardim da Hortencias, Rio do Oeste </h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3548.9904964928705!2d-49.81524668499615!3d-27.18803548300975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x551e6ab3e98cea1e!2sEscola%20de%20Educa%C3%A7%C3%A3o%20B%C3%A1sica%20Expedicion%C3%A1rio%20M%C3%A1rio%20Nardelli!5e0!3m2!1spt-BR!2sbr!4v1657655795398!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+
+                    <div class="col">
+                        <i>
+                          <center>
+                          <svg xmlns="http://www.w3.org/2000/svg" class="btn btn-default" data-bs-toggle="modal" data-bs-target="#datas" style="color:green" width="150" height="100" fill="currentColor" class="bi bi-calendar-check-fill" viewBox="0 0 16 16">
+                            <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-5.146-5.146-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708z"/>
+                          </svg>
+                            <h4><span style="color:Green"> Datas Importantes </span></h4>
+                          </center> 
+                        </i>
+                            
+                        <div class="modal fade" id="datas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Datas Importantes </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                15/06 a 20/06 – Período de credenciamento das instituições <br> 
+                                26/06 a 10/07 – Período de inscrição dos trabalhos 
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>       
+                    </div>
+                    <div class="col">
+                        <i>
+                          <center>
+                          <svg xmlns="http://www.w3.org/2000/svg" class="btn btn-default" data-bs-toggle="modal" data-bs-target="#documentos" style="color:blue" width="150" height="100" fill="currentColor" class="bi bi-archive-fill" viewBox="0 0 16 16">
+                            <path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15h9.286zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1zM.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8H.8z"/>
+                          </svg>
+                            <h4><span style="color:Blue"> Documentos </span></h4>
+                          </center> 
+                        </i> 
+                            
+                        <div class="modal fade" id="documentos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Documentos </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                Relação dos Trabalhos Homologados – clique aqui <br> 
+                                Tabela de Premiação dos Trabalhos – clique aqui <br> 
+                                Ata da Assembleia Geral das Feiras – clique aqui 
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>       
+                    </div>
+                  </div> <!--FIM DA PAGINA MODAL E ICONES-->
+                  <br>
+                  <br>
+                  <br>
+                  <div class="row">
+                    <div class="col">
+                      <br> 
+                      <i>
+                        <center>
+                          
+                          <svg xmlns="http://www.w3.org/2000/svg" class="btn btn-default" data-bs-toggle="modal" data-bs-target="#comissao" style="color:fuchsia" width="150" height="100"  fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                            <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                            <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
+                            <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+                          </svg>
+                          <h4><span style="color:fuchsia"> Comissão </span></h4>
+                        </center> 
+                      </i> 
+
+                          
+                      <div class="modal fade" id="comissao" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Comissão </h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              projetofeiras.riodosul@ifc.edu.br
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>       
+                    </div>
+                    <div class="col">
+                      <br> 
+                      <i>
+                        <center>
+                          
+                        <svg xmlns="http://www.w3.org/2000/svg"class="btn btn-default" data-bs-toggle="modal" data-bs-target="#regimento" style="color:darkcyan" width="150" height="100" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16">
+                          <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1h-4z"/>
+                        </svg>
+                          <h4><span style="color:darkcyan">Regimento</span></h4>
+                        </center> 
+                      </i> 
+
+                          
+                      <div class="modal fade" id="regimento" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Regimento </h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              Regimento – 24ª FRMat – clique aqui <br> 
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div> 
+                  <div class="col">
+                      <br> 
+                      <i>
+                        <center>
+                          
+                        <svg xmlns="http://www.w3.org/2000/svg"class="btn btn-default" data-bs-toggle="modal" data-bs-target="#inscricao" style="color:goldenrod" width="150" height="100" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16">
+                          <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1h-4z"/>
+                        </svg>
+                          <h4><span style="color:goldenrod">Tutorial Para Inscrição</span></h4>
+                        </center> 
+                      </i> 
+
+                          
+                      <div class="modal fade"  id="" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Comissão </h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>            
+                </div>
+              </div>  
             </section> <!-- FIM AREA DO PARTICIPANTE -->
 
             
@@ -202,7 +343,11 @@ include_once "cabecalho.php";
                     13h – Retorno da exposição e visitação pública <br>
                     15h30min – Desmontagem dos trabalhos <br>
                     15h45min – Premiação 
-                  </p> <br>
+              </p> 
+              
+                  <input type="image" src="imagens/Logo feira mtm-01a_sf.png" class="image1" alt="">
+              
+            
             </section> <!-- FIM PROGRAMAÇÃO -->
             
             <section class = "organizacao" id = "organizacao"> <!-- INICIO ORGANIZAÇÃO E APOIO -->
@@ -230,82 +375,68 @@ include_once "cabecalho.php";
             </section> <!-- FIM ORGANIZAÇÃO E APOIO -->
 
             <section class = "galeria" id = "galeria"> <!-- INICIO GALERIA  -->
-                <h1>Galeria</h1>
-                <h2 >
-                  <span style="color: #339966;">
-                    Geleria de Fotos - Feira de Matemática 2018
-                  </span>
-                </h2>
-                <div class="row" >
+              <h1>Galeria</h1>
+              <h2 >
+                <span style="color: #339966;">
+                  Geleria de Fotos - Feira de Matemática 2018
+                </span>
+              </h2>
+              <div class="row" >
                   <div class="col">
-                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-            
-                      <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="2000">
-                          <img  id="imagem1" src="imagens/FRMat2018/IMG_8010.jpg" class="d-block w-100" alt="imagem1">
-                          <div class="carousel-caption d-none d-md-block"> </div>            
-                        </div>
-                        
-                        <div class="carousel-item " data-bs-interval="2000">
-                          <img  id="imagem2" src="imagens/FRMat2018/IMG_8011.jpg" class="d-block w-100" alt="imagem2">
-                          <div class="carousel-caption d-none d-md-block"></div>
-                        </div>
-                        
-                        <div class="carousel-item " data-bs-interval="2000">
-                          <img  id="imagem3" src="imagens/FRMat2018/IMG_8019.jpg" class="d-block w-100" alt="imagem3">
-                          <div class="carousel-caption d-none d-md-block"></div>
-                        </div>
-            
-                        <div class="carousel-item " data-bs-interval="2000">
-                          <img  id="imagem4" src="imagens/FRMat2018/IMG_8135.jpg" class="d-block w-100" alt="imagem4">
-                          <div class="carousel-caption d-none d-md-block"></div>
-                        </div>
-            
-                        <div class="carousel-item " data-bs-interval="2000">
-                          <img  id="imagem5" src="imagens/FRMat2018/IMG_8160.jpg" class="d-block w-100" alt="imagem5">
-                          <div class="carousel-caption d-none d-md-block"></div>
-                        </div>
-            
-                        <div class="carousel-item " data-bs-interval="2000">
-                          <img  id="imagem6" src="imagens/FRMat2018/IMG_8162.jpg" class="d-block w-100" alt="imagem6">
-                          <div class="carousel-caption d-none d-md-block"></div>
-                        </div>
-            
-                        <div class="carousel-item " data-bs-interval="2000">
-                          <img  id="imagem7" src="imagens/FRMat2018/IMG_8167.jpg" class="d-block w-100" alt="imagem7">
-                          <div class="carousel-caption d-none d-md-block"></div>
-                        </div>
-            
-                        <div class="carousel-item " data-bs-interval="2000">
-                          <img  id="imagem8" src="imagens/FRMat2018/IMG_8180.jpg" class="d-block w-100" alt="imagem8">
-                          <div class="carousel-caption d-none d-md-block"></div>
-                        </div>
-            
-                        <div class="carousel-item " data-bs-interval="2000">
-                          <img  id="imagem9" src="imagens/FRMat2018/IMG_8190.jpg" class="d-block w-100" alt="imagem9">
-                          <div class="carousel-caption d-none d-md-block"></div>
-                        </div>
-            
-                        <div class="carousel-item " data-bs-interval="2000">
-                          <img  id="imagem10" src="imagens/FRMat2018/IMG_8198.jpg" class="d-block w-100" alt="imagem10">
-                          <div class="carousel-caption d-none d-md-block"></div>
-                        </div>
-            
-                      </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                      </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                      </button>
+                <div id="carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                      <img   src="imagens/FRMat2018/IMG_8010.JPG"  class="d-block w-100" alt="Logos Feira e Data/Local do Evento">
+                      <div class="carousel-caption d-none d-md-block"></div>
                     </div>
+                    
+                    <div class="carousel-item" data-bs-interval="5000">
+                      <img src="imagens/FRMat2018/IMG_8011.JPG" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block"></div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                      <img src="imagens/FRMat2018/IMG_8160.JPG" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block"></div>
+                    </div> 
+                    <div class="carousel-item" data-bs-interval="5000">
+                      <img src="imagens/FRMat2018/IMG_8198.JPG" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block"></div>
+                    </div>             
+                    <div class="carousel-item" data-bs-interval="5000">
+                      <img src="imagens/FRMat2018/IMG_8135.JPG" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block"></div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                      <img src="imagens/FRMat2018/IMG_8162.JPG" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block"></div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                      <img src="imagens/FRMat2018/IMG_8180.JPG" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block"></div>
+                    </div> 
+                    <div class="carousel-item" data-bs-interval="5000">
+                      <img src="imagens/FRMat2018/IMG_8198.JPG" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block"></div>
+                    </div> 
                   </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próxima</span>
+                  </button>
+                  
+
                 </div>
+              </div>
+            </div>
             </section> <!-- FIM GALERIA  -->
           </div>     
         </div>
       </div>
+    </div>
 </body>
 </html>
