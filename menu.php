@@ -9,18 +9,50 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <?php if ($feira == ""){   ?> 
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#feiras">Home</a>
+              </li>
+
+            <?php if ($feira == "projeto"){   ?> <!--Quando na pagina index utiliza o Home do menu para mostrar o carrosel-->
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#projeto">Sobre</a> 
+              </li>
+
+            <?php } if($feira != "projeto"){?>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#informaçoes">Informações</a> 
+              </li>
+
+              
+            <?php }  if($feira != "projeto"){?>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#formacao">Formação</a> 
+              </li>
+            <?php }?>
+            <?php if($feira != "projeto"){ ?>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#feiras">Home</a>
             </li>
             
           <?php }if ($feira == ""){   ?> 
+            <?php } ?>
+              <!-- <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#feiras" id="mnregionais">Feiras</a>
+              </li> -->
+            <?php // } ?> 
+            <!-- <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#programacao">Programação</a>
+            </li> -->
+            <?php
+                if ($feira != "projeto"){ ?> 
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#projeto">Sobre</a> 
             </li>
             
           <?php } if($feira != ""){?>
+            <?php } ?>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#informaçoes">Informações</a> 
             </li>
