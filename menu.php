@@ -33,10 +33,11 @@
             <?php }?>
             <?php if($feira != "projeto"){ ?>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#areadoparticipante">Area do Participante</a>
+              <a class="nav-link" aria-current="page" href="#feiras">Home</a>
             </li>
+            
+          <?php }if ($feira == ""){   ?> 
             <?php } ?>
-             <?php // if ($feira == ""){ ?>
               <!-- <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#feiras" id="mnregionais">Feiras</a>
               </li> -->
@@ -47,19 +48,46 @@
             <?php
                 if ($feira != "projeto"){ ?> 
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#organizacao">Organização e apoio</a>
+              <a class="nav-link" aria-current="page" href="#projeto">Sobre</a> 
             </li>
+            
+          <?php } if($feira != ""){?>
             <?php } ?>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#galeria">Galeria</a>
+              <a class="nav-link" aria-current="page" href="#informaçoes">Informações</a> 
             </li>
+              
+          <?php }?>
+          <?php if($feira != ""){ ?>
             <li class="nav-item">
-              <a class="nav-link disabled" aria-current="page" href="#contato">Contato</a>
+              <a class="nav-link" aria-current="page" href="#areadoparticipante">Area do Participante</a>
             </li>
+          <?php } ?>
+                
+          <!-- <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#feiras" id="mnregionais">Feiras</a>
+          </li> -->
+          <?php if($feira!=null){ ?> 
             <li class="nav-item">
-              <a class="nav-link disabled" aria-current="page" href="#inscrever">Inscreva-se</a>
+              <a class="nav-link" aria-current="page" href="#programacao">Programação</a>
             </li>
-          </ul>  
+          <?php }?> 
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#organizacao">Organização e apoio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#galeria">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="formacao.php">Formação</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-current="page" href="#contato">Contato</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-current="page" href="#inscrever">Inscreva-se</a>
+          </li>
+        </ul>  
       </div>
     </div>
 
