@@ -4,8 +4,8 @@
 }
 
 section{
-  min-height: 85vh;
-  /* padding-top: 5vh; */
+  min-height: 90vh;
+  padding-top: 10vh; 
   background-color: white;
   padding-left: 5%;
   padding-right: 5%;
@@ -34,7 +34,7 @@ section{
   background-size:contain;
   background-position: center;
 }
-
+//swsw
 .linksel{
   fill:rgb(58, 56, 54)  !important;
   fill-opacity: 0.2; 
@@ -50,7 +50,54 @@ section{
   height: 100px;
   max-width: 110px;
   min-width: 110px;
+  position: fixed;
+  animation: linkpisca 2s infinite alternate;
   }
+
+@keyframes linkpisca {
+  from {opacity: 0.2;}
+  to {opacity: 1;}
+}
+
+#linkrds{
+  left:70vh;
+  top:62vh;
+  z-index: 1000;
+}
+
+#linkitu{
+  left:110vh;
+  top:60vh;
+  z-index: 1000;
+}
+
+#linkibi{
+  left:90vh;
+  top:65vh;
+  z-index: 1000;
+}
+
+#linktai{
+  left:100vh;
+  top:80vh;
+  z-index: 1000;
+}
+
+#linkcat{
+  left:130vh;
+  top:55vh;
+  z-index: 1000;
+  max-width: 120px;
+  height: 120px;
+}
+
+#linknac{
+  left:150vh;
+  top:80vh;
+  z-index: 1000;
+  max-width: 130px;
+  height: 130px;
+}
 
 .linkfeira:hover{
   animation: linkanimah 1s ;
@@ -123,3 +170,15 @@ svg:hover{
   background-color: transparent;
   border:none;
 }
+
+
+@media screen and (max-width:500px){
+  .linkfeira{
+    position: inherit;
+  }
+  #linkrds, #linkitu, #linkibi, #linktai, #linknac, #linkcat{
+    top:auto;
+    left: auto;
+  }
+}
+
