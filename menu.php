@@ -57,7 +57,6 @@
               <a class="nav-link" aria-current="page" href="#informaçoes">Informações</a> 
             </li>
               
-          <?php }?>
           <?php if($feira != ""){ ?>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#areadoparticipante">Area do Participante</a>
