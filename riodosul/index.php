@@ -15,8 +15,8 @@ include_once "cabecalho.php";
 
 <body class=" container justify-content-center"> <!-- -->
   <div class = "container">
-      <div class="row" >
-          <div class="col">
+      <!-- <div class="row" >
+          <div class="col"> -->
               <!-- NAVBAR -->
               
                 <?php include "menu.php"; ?>
@@ -29,7 +29,7 @@ include_once "cabecalho.php";
 
                       <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="10000">
-                          <img  id="banner1" src="imagens/banner1.svg" class="d-block w-100" alt="Logos Feira e Data/Local do Evento">
+                          <img  id="banner1" src="../imagens/banner1.svg" class="d-block w-100" alt="Logos Feira e Data/Local do Evento">
                           <div class="carousel-caption d-none d-md-block">              
                           </div>
                         </div>
@@ -46,10 +46,12 @@ include_once "cabecalho.php";
                   </div>
                 </div>
             </section>  FIM DO CAROUSEL-->
-            <section >
+          <div class="container" id="topo" data-bs-spy="scroll" data-bs-target="#nav-menu" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+  
+            <section id="home">
               <div class="container">
                 <div class="row">
-                  <div class="col"><br><img id= "logo"src="imagens/rsllogo.jpeg"  alt=""></div>  
+                  <div class="col"><br><img id= "logo"src="../imagens/rsllogo.jpeg"  alt=""></div>  
                   <div class="col">
                     <br>
                     <h1>24ª FRMat e XIII FRCTec – Regional Rio do Sul</h1>  
@@ -63,7 +65,7 @@ include_once "cabecalho.php";
               </div>  
             </section>
 
-            <section class="informaçoes" id= "informaçoes" > <!-- INICIO INFORMAÇÕES -->
+            <section class="informaçoes" id="informacoes" > <!-- INICIO INFORMAÇÕES -->
                 
                 </h2> <br> <br>
 
@@ -131,7 +133,7 @@ include_once "cabecalho.php";
             </section> <!-- FIM INFORMAÇÕES -->
                   
               
-            <section class = "areadoparticipante" id = "areadoparticipante"> <!-- INICIO AREA DO PARTICIPANTE  -->
+            <section class = "areadoparticipante" id="areadoparticipante"> <!-- INICIO AREA DO PARTICIPANTE  -->
               <div class="container">
                 <div class="section" >
                   <h1>Área do Participante</h1> 
@@ -346,7 +348,7 @@ include_once "cabecalho.php";
                     15h45min – Premiação 
               </p> 
               
-                  <input type="image" src="imagens/Logo feira mtm-01a_sf.png" class="image1" alt="">
+                  <input type="image" src="../imagens/Logo feira mtm-01a_sf.png" class="image1" alt="">
               
             
             </section> <!-- FIM PROGRAMAÇÃO -->
@@ -388,36 +390,36 @@ include_once "cabecalho.php";
 
                   <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="5000">
-                      <img   src="imagens/FRMat2018/IMG_8010.JPG"  class="d-block w-100" alt="Logos Feira e Data/Local do Evento">
+                      <img   src="../imagens/FRMat2018/IMG_8010.JPG"  class="d-block w-100" alt="Logos Feira e Data/Local do Evento">
                       <div class="carousel-caption d-none d-md-block"></div>
                     </div>
                     
                     <div class="carousel-item" data-bs-interval="5000">
-                      <img src="imagens/FRMat2018/IMG_8011.JPG" class="d-block w-100" alt="...">
+                      <img src="../imagens/FRMat2018/IMG_8011.JPG" class="d-block w-100" alt="...">
                       <div class="carousel-caption d-none d-md-block"></div>
                     </div>
                     <div class="carousel-item" data-bs-interval="5000">
-                      <img src="imagens/FRMat2018/IMG_8160.JPG" class="d-block w-100" alt="...">
+                      <img src="../imagens/FRMat2018/IMG_8160.JPG" class="d-block w-100" alt="...">
                       <div class="carousel-caption d-none d-md-block"></div>
                     </div> 
                     <div class="carousel-item" data-bs-interval="5000">
-                      <img src="imagens/FRMat2018/IMG_8198.JPG" class="d-block w-100" alt="...">
+                      <img src="../imagens/FRMat2018/IMG_8198.JPG" class="d-block w-100" alt="...">
                       <div class="carousel-caption d-none d-md-block"></div>
                     </div>             
                     <div class="carousel-item" data-bs-interval="5000">
-                      <img src="imagens/FRMat2018/IMG_8135.JPG" class="d-block w-100" alt="...">
+                      <img src="../imagens/FRMat2018/IMG_8135.JPG" class="d-block w-100" alt="...">
                       <div class="carousel-caption d-none d-md-block"></div>
                     </div>
                     <div class="carousel-item" data-bs-interval="5000">
-                      <img src="imagens/FRMat2018/IMG_8162.JPG" class="d-block w-100" alt="...">
+                      <img src="../imagens/FRMat2018/IMG_8162.JPG" class="d-block w-100" alt="...">
                       <div class="carousel-caption d-none d-md-block"></div>
                     </div>
                     <div class="carousel-item" data-bs-interval="5000">
-                      <img src="imagens/FRMat2018/IMG_8180.JPG" class="d-block w-100" alt="...">
+                      <img src="../imagens/FRMat2018/IMG_8180.JPG" class="d-block w-100" alt="...">
                       <div class="carousel-caption d-none d-md-block"></div>
                     </div> 
                     <div class="carousel-item" data-bs-interval="5000">
-                      <img src="imagens/FRMat2018/IMG_8198.JPG" class="d-block w-100" alt="...">
+                      <img src="../imagens/FRMat2018/IMG_8198.JPG" class="d-block w-100" alt="...">
                       <div class="carousel-caption d-none d-md-block"></div>
                     </div> 
                   </div>
@@ -436,8 +438,8 @@ include_once "cabecalho.php";
             </div>
             </section> <!-- FIM GALERIA  -->
           </div>     
-        </div>
-      </div>
+        <!-- </div>
+      </div> -->
     </div>
 </body>
 </html>

@@ -54,26 +54,26 @@ include_once "cabecalho.php";
             </div>
             <ul class="list-group list-group-horizontal-lg flex-fill listalinks">
               <li class="list-group-item">
-                <a href="regRiodoSul.php" target="_blank" class='btn btn-success linkfeira' id='linkrds'>
+                <a href="riodosul/index.php" target="_blank" class='btn btn-success linkfeira' id='linkrds'>
                     <img src="imagens/logo-rds.png" alt="Logo Rio do Sul" class="d-block w-100">
                     Rio do Sul
                 </a>
               </li>
               <li class="list-group-item">
-                <a href="regItuporanga.php" target="_blank" class='btn btn-success linkfeira' id='linkitu'>
+                <a href="ituporanga/index.php" target="_blank" class='btn btn-success linkfeira' id='linkitu'>
                       <img src="imagens/logo-ituporanga.png" alt="Logo Ituporanga" class="d-block w-100">
                       Ituporanga
                   </a>
               </li>
               <li class="list-group-item">
-                <a href="regIbirama.php" target="_blank" class='btn btn-success linkfeira' id='linkibi'>
+                <a href="ibirama/index.php" target="_blank" class='btn btn-success linkfeira' id='linkibi'>
                       <img src="imagens/logo-ibirama.png" alt="Logo Ibirama" class="d-block w-100">
                       Ibirama
                   </a>
 
               </li>
               <li class="list-group-item">
-              <a href="regTaio.php" target="_blank" class='btn btn-success linkfeira' id='linktai'>
+              <a href="taio/index.php" target="_blank" class='btn btn-success linkfeira' id='linktai'>
                     <img src="imagens/logo-taio.png" alt="Logo Taió" class="d-block w-100">
                     Taió
                 </a>
@@ -176,8 +176,11 @@ include_once "cabecalho.php";
               <cite>Texto elaborado por Silvana Catarine Bauer – Acadêmica do Curso de Licenciatura em Matemática, revisado por Fátima Peres Zago de Oliveira – Professora do Curso de Licenciatura em Matemática e Ruy Piehowiak – Coordenador do Projeto de Apoio à Organização e Participação de Docentes e Alunos em Feiras de Matemática, Ciência e Tecnologia (2015).</cite>
             </div>
           </div>
-      </section> 
-  
+      </section>
+    <section id="galeria></section> 
+    <section> 
+      <?php include "rodape.php"; ?>
+    </section>
     </div>
   </div>
 
