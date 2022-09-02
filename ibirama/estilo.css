@@ -1,0 +1,67 @@
+
+.full{
+  height: 100vh;
+}
+
+section{
+  min-height: 90vh;
+  padding-top: 10vh; 
+  background-color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+.corpo{
+  background-color: #ffffff9a;
+  /* padding-top:1vh; */
+  background-image:url('../imagens/fundo-mtm.jpg');
+  background-repeat:repeat;
+  background-size:auto;
+  background-position: center;
+  background-attachment: fixed;
+  background-blend-mode: color-dodge;
+}
+
+.menu{
+  background-color: #5dc460 !important;
+  font-size: 1.2em;
+}
+
+.menuimg{
+  background-image:url('../imagens/faixa_site_projeto-feiras_02.png');
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position: center;
+}
+
+.titulo{
+  height: 60vh;
+}
+
+.titulo  h1{
+  font-family: 'Rubik Moonrocks', cursive;
+  font-size: 7em;
+
+}
+
+.titulo  p{
+  /* font-family: 'The Nautigal', cursive; */
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 4em;
+  text-align: right;
+  color: #2665b6;
+}
+
+.titulo img{
+  width: 100%;
+}
+
+.organizacao img{
+  width: 100px !important;
+}
+
+.lead{
+  font-family: inherit;
+}
+
