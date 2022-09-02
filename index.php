@@ -177,7 +177,9 @@ include_once "cabecalho.php";
             </div>
           </div>
       </section> 
-  
+    <section> 
+      <?php include "rodape.php"; ?>
+    </section>
     </div>
   </div>
 

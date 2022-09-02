@@ -49,8 +49,9 @@ include_once "cabecalho.php";
             <section >
               <div class="container">
                 <div class="row">
-                  <div class="col"><img id= "logo"src="imagens/rsllogo.jpeg"  alt=""></div>  
+                  <div class="col"><br><img id= "logo"src="imagens/rsllogo.jpeg"  alt=""></div>  
                   <div class="col">
+                    <br>
                     <h1>24ª FRMat e XIII FRCTec – Regional Rio do Sul</h1>  
                     <br>
                     <h2>
