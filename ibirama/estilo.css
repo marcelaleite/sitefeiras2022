@@ -1,67 +1,73 @@
+@charset "UTF-8";
 
-.full{
-  height: 100vh;
-}
-
-section{
-  min-height: 90vh;
-  padding-top: 10vh; 
-  background-color: white;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-
-.corpo{
-  background-color: #ffffff9a;
-  /* padding-top:1vh; */
-  background-image:url('../imagens/fundo-mtm.jpg');
-  background-repeat:repeat;
-  background-size:auto;
-  background-position: center;
-  background-attachment: fixed;
-  background-blend-mode: color-dodge;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=DM+Serif+Display&family=Open+Sans:wght@300&display=swap');
 .menu{
   background-color: #5dc460 !important;
-  font-size: 1.2em;
-}
+  font-size: 1.2em;}
 
-.menuimg{
-  background-image:url('../imagens/faixa_site_projeto-feiras_02.png');
-  background-repeat:no-repeat;
-  background-size:contain;
-  background-position: center;
-}
+#carouselExampleControls{
+  padding-top: 20vh !important}
+
+#convite{
+  font-style: italic ;}
+
+#banner{
+  width: 80% !important;}
+
+#ti{
+  padding-top: 10%}
+
+#partici{
+  color: #339966;}
+
+#municipios{
+  width: 80% !important;}  
+
+#programacao{
+  color: #339966;
+  padding-top: 10%;}
 
 .titulo{
-  height: 60vh;
+  color: #339966;
+  padding-top: 10%;
+  padding-bottom: 05%;}
+
+.center{
+  align-items: center;}
+
+#icones{
+  padding-top: 10%}
+
+#exposi{
+  color: #339966;
+  padding-top: 10%;
+  padding-bottom: 02%;
 }
 
-.titulo  h1{
-  font-family: 'Rubik Moonrocks', cursive;
-  font-size: 7em;
+#expo{
+  font-family: 'Comfortaa', cursive;}
 
-}
+#convidados, #estan{
+  list-style-type:square;}
 
-.titulo  p{
-  /* font-family: 'The Nautigal', cursive; */
-  font-family: 'Fredericka the Great', cursive;
-  font-size: 4em;
-  text-align: right;
-  color: #2665b6;
-}
 
-.titulo img{
-  width: 100%;
-}
+.titulo2{
+  color: #339966;
+  padding-top: 06%;
+  padding-bottom: 02%;}
+  
+#cert{
+  color: #339966;
+  padding-top: 05%;
+  font-family: 'Hind Siliguri', sans-serif;}
 
-.organizacao img{
-  width: 100px !important;
-}
+#organizacao{
+  margin-bottom: 20%}
 
-.lead{
-  font-family: inherit;
-}
+.carousel-control-prev, .carousel-control-next{
+  margin-top: 10%;
+  background-color: black}
 
+.car, button, span{
+  color: black}

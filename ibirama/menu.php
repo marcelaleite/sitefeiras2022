@@ -1,5 +1,4 @@
-
- <div class="container">
+<div class="container" >
   <nav class="navbar menu fixed-top  navbar-expand-lg navbar-dark bg-dark" id='nav-menu'>
     <div class="container-fluid ">
       <a class="navbar-brand" href="index.php">
@@ -11,32 +10,26 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#feiras">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#formacao">Formação</a> 
-              </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#informaçoes">Informações</a> 
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#programacao">Programação</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#areadoparticipante">Area do Participante</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#programacao">Programação</a>
+              <a class="nav-link" aria-current="page" href="#informacoes">Informações</a> 
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../formacao.php">Formação</a> 
             </li>
           <li class="nav-item">
             <a class="nav-link " aria-current="page" href="#organizacao">Organização e apoio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="#galeria">Galeria</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-current="page" href="#contato">Contato</a>
-            </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-current="page" href="#inscrever">Inscreva-se</a>
           </li>
         </ul>  
       </div>
